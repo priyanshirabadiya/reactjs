@@ -1,0 +1,328 @@
+/* Z-index Propeties */
+/* 1 2 3 4 5 6 aem je motu hse te z index leshe */
+
+.f1{
+    height: 500px;
+    width: 400px;
+    background-color: green;
+    position: absolute;
+    z-index: 3;
+}
+/* moti index pela leshe ane - negative  ma uundhu */
+
+.f2{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(0, 0, 128);
+    z-index: 2;
+    position: absolute;
+
+}
+
+/* float properties */
+
+.float-1 img{
+
+    float: left;
+    clear: right;
+}
+
+
+
+
+/* css clear properties */
+
+.clear-1{
+    height: 400px;
+    width: 500px;
+    background-color: red;
+    float: right;
+    clear: left;
+}
+
+
+.clear-2{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(0, 255, 13);
+    float: left;
+    clear: right;
+    /* clear: both; */
+}
+
+
+.clear-3 img{
+
+    float: left;
+    clear: right;
+    z-index: 2;
+    /* position: relative; */
+}
+
+.clear-3 {
+    float: right;
+    /* z-index: 1; */
+}
+
+.clear-4 img{
+    float:right ;
+    clear: left;
+} 
+
+
+
+/* overflow properties */
+
+ .maindiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height:inherit;
+    
+ }
+
+.image p{
+    background-color: lightblue;
+    width: 100px;
+    overflow-x: scroll;
+
+}
+
+
+.image div{
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: visible;
+    margin-bottom: 50px;
+}
+
+
+.image h6{
+
+    background-color: coral;
+    width: 200px;
+    height: 65px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+
+/* ----------------------------- */
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    position: relative;
+    border-radius: 50px;
+}
+
+.text h2 , p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    z-index: -2;
+}
+
+.text .img-1{
+    position: absolute;
+    bottom: -100px;
+    right: 0;
+   
+    /* top: 200px; */
+    z-index: -3;
+}
+.text .img-2{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    z-index: -3;
+} 
+
+/* css cursor properties */
+/*
+.alias {
+    cursor: alias;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.default {
+    cursor: default;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.help {
+    cursor: help;
+}
+
+.move {
+    cursor: move;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.none {
+    cursor: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.text {
+    cursor: text;
+}
+
+.url {
+    cursor: url(myBall.cur), auto;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+*/
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+
+
+.box {
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.box img {
+    width: 600px;
+    height: 600px;
+    object-fit:scale-down;
+}
+
+.box  img:hover{
+
+    transform: scale(1.2);
+}

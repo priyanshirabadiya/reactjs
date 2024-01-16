@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    margin-top: 100px;
+    background-color: white;
+    height: 100%;
+    width: 350px;
+    padding:20px 25px 25px 25px;
+}
+
+.f-check .first div .form-check-input{
+    border-radius:100% !important;
+    background-color:rgb(81, 42, 171) !important;
+    border: 0 !important;
+    padding: 10px;
+}
+.form-check-input{
+    padding: 8px;
+}
+.form-check-input:focus{
+    background-color:rgb(81, 42, 171) !important;
+    padding: 8px;
+}
+.third .form-check-input{
+    background-color:rgb(81, 42, 171) !important;
+    border: 0 !important;
+    padding: 10px;
+}
+.btn{
+    background-color: aliceblue;
+}
+a{
+    color: black;
+}
+.sec i{
+    margin: 0px !important;
+    padding: 0 !important;
+}
+
+.padding{
+    margin-right: 10px;
+}
+
+

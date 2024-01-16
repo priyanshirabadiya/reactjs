@@ -1,0 +1,112 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Montserrat:ital,wght@0,100;1,100;1,300;1,700&family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+/*  
+    CSS FONT PROPERTIES
+	CSS TEXT PROPERTIES
+	CSS VERTICLE ALIGN
+    CSS WHITE SPACE
+    CSS VISIBILITY
+*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    /* margin: 0; */
+}
+
+/* css font properties */
+
+/* 
+
+1.font-family / Google font
+2.font-size
+3.font-style
+4.font-variant
+5.font-weight
+6.line-height 
+
+*/
+
+
+.font-family{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.font-size{
+    font-size:calc(1vw + 20px);
+    font-style:normal;
+}
+.font-varient{
+    font-variant:small-caps;
+}
+.font-weight{
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    /* <1000>  font-weight can't count in px */
+}
+
+.line-height{
+    line-height:  ;
+}
+
+/*css text-properties */
+
+/*
+1.Text-color
+2.Text-alignment
+3.Text-decoration
+4.Text-transformation
+5.Text-indentation
+6.Letter spacing
+7.Word spacing
+8.Text-direction
+9.Text-shadow
+*/
+
+.text{
+    color:rgb(18, 14, 14);
+    text-align:justify;
+    text-decoration: underline green wavy;
+    text-transform: lowercase;
+    text-indent: 200px;
+    letter-spacing:5px ;
+    word-spacing: 20px;
+    direction:ltr;
+    unicode-bidi:isolate-override;
+
+}
+
+
+.shadow{
+    font-size: 50px;
+    text-shadow:10px 10px 1px green;
+}
+
+
+
+/* css verticle alignment */
+
+
+.align{
+    font-size: 50px;
+    /* text-decoration: overline; */
+}
+.align img{
+    vertical-align:text-bottom;
+
+}
+
+/* css white space */
+.whitespace{
+    white-space:pre-line ;
+}
+
+
+
+/* css visibility */
+
+p{
+    visibility:hidden;
+}
+

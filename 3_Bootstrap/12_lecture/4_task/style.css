@@ -1,0 +1,29 @@
+.p1 div{
+    display: flex;
+    align-items: start;
+    align-self: flex-start;
+    justify-content:space-around;
+}
+
+
+.f1{
+    padding:12px;
+    border: 0;
+    border-radius: 0;
+    padding-left:40px !important;
+    padding-right:40px !important;
+    box-shadow: 0 0 5px 1px gainsboro;
+
+}
+
+.f2{
+    padding:9px;
+    border: 0;
+    border-radius: 0;
+    padding-left:40px !important;
+    padding-right:40px !important;
+    border: 2px solid #469aef;
+    box-shadow: 0 0 5px 1px gainsboro;
+}
+
+

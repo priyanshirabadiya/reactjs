@@ -1,0 +1,206 @@
+.float-1 img{
+    float: left;
+    clear: right;
+}
+
+/* css clear properties */
+
+/* ---------------------------------- */
+
+
+.clear-3 {
+    background-color: black;
+    float: left;
+    /* clear: right; */
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 10px;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+
+.clear-3 p{
+
+font-size:  25px;;
+}
+
+.clear-3 h1{
+    color: yellow;
+}
+
+
+
+.clear-4{
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 450px;
+    background-color: orangered;
+    float: left;
+    /* clear: right; */
+} 
+
+.clear-4 img{
+    height: 290px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+} 
+
+.clear-4 span{
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+    color: aliceblue;
+
+}
+
+.clear-4 h1{
+    float: right;
+    text-align: center;
+    font-size: 60px;
+    margin-right: 20px;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+
+.clear-4 h4{
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+    color: aliceblue;
+}
+
+.clear-4 h6{
+    height: 40px;
+    width: 100px;
+    background-color: aliceblue;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 50px;
+    color: black;
+    border-radius: 5px;
+    margin-top: 10px;
+    line-height: 40px;
+
+}
+
+
+.float-1{
+    
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+    width: 450px;
+    background-color: rgb(12, 11, 11);
+    float: left;
+    /* clear:left; */
+} 
+
+.float-1 img{
+    height: 280px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+} 
+
+.float-1 span{
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-right: 50px;
+    color: aliceblue;
+
+}
+
+.float-1 h1{
+    float: right;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+
+.float-1 h4{
+    float: right;
+    text-align: center;
+    margin-right: 60px;
+    color: aliceblue;
+}
+
+.float-1 h6{
+    height: 40px;
+    width: 100px;
+    background-color: aliceblue;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    margin-right: 50px;
+    color: black;
+    border-radius: 5px;
+    margin-top: 35px;
+    line-height: 40px;
+}
+
+.float-2{
+    
+    border-radius: 10px;
+    margin: 10px;
+    height: 230px;
+    width: 915px;
+    background-color: green;
+    float: left;
+    /* clear: left; */
+} 
+
+.float-2 img{
+
+    height: 200px;
+    width: 105px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.float-2 span{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    float: right;
+    margin-right: 200px;
+    color: aliceblue;
+
+}
+
+.float-2 h1{
+    float: right;
+    text-align: center;
+    /* float: right; */
+    font-size: 50px;
+    margin-bottom: 2px;
+    color: aliceblue;
+}
+
+
+.float-2 h6{
+    height: 40px;
+    width: 100px;
+    background-color: aliceblue;
+    float: right;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+    /* margin-right: 20px; */
+    margin-left: 70px;
+    color: black;
+    border-radius: 5px;
+    line-height: 40px;
+
+}

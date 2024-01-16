@@ -1,0 +1,151 @@
+.btn {
+    width: 18rem;
+    height:3rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #898585;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    line-height: 1rem;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+}
+
+.btn:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(4px);
+    width: 18rem;
+    height: 3rem;
+    /* animation name/ animation-duration/ animatio-timeing-function / animation-dalay / animation-iteration-count / animation-direction*/
+    animation: glowing 20s linear infinite alternate ;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+    border-radius: 10px;
+    color: black;
+}
+/* transition opacity is used when we don't want to direct translate color of button */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.game:active {
+    color: #000
+}
+
+.game:hover:after {
+    background: transparent;
+}
+
+.game:hover:before {
+    opacity: 1;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------- */
+.codes{
+    /* position: absolute;
+    left: 10rem;
+    height: 200px;
+    width: 200px; */
+    /* border-radius: 100%; */
+    /* background-color: #002bff;
+    animation: animate 1s ease-in-out 1s infinite alternate ; */
+    /* animation: mymove 5s infinite; */
+    /* animation-timeline: scroll(scroller axis); */
+}
+
+/* @keyframes animate {
+   from{
+    transform: rotate(180deg);
+   }
+to{left: 100px;}
+} */
+
+
+/* @keyframes mymove {
+    from {left: 0px;}
+    to {left: 200px;}
+  }
+
+
+  .codes{
+    filter: blur(5px);
+    animation: 3s infinite pulse;
+    animation-composition: add;
+  }
+  
+  @keyframes pulse {
+    0% {
+      filter: blur(10px);
+    }
+    100% {
+      filter: blur(20px);
+    }
+  } */
+  
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,169 @@
+/*
+a:first-child{
+    background-color: yellow;
+    color: red;
+}
+
+a:nth-last-of-type(2){
+    background-color: yellow;
+}
+a:nth-child(23)
+{
+    background-color: yellow;
+}
+
+/* ------------------------------------ */
+/*
+h1:nth-child(19){
+    background-color: yellow;
+    color:red;
+}
+
+h1:nth-child(22){
+    background-color: yellow;
+    color:red;
+}
+
+h1:nth-last-child(22)
+{
+    background-color: yellow;
+    color: red;
+}
+
+h1:nth-last-child(19)
+{
+    background-color: yellow;
+    color: red;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+input[type="text"]{
+    background-color: red;
+}
+
+input:first-of-type{
+    background-color: yellow;
+}
+
+
+section:nth-of-type(1) div:first-child h1:nth-child(2){
+    background-color: yellow;
+    color:red;
+}
+
+
+/* 33 */
+/*
+div:nth-last-of-type(1) div:nth-child(3) h1:first-child{
+    background-color: yellow;
+}
+
+div:nth-last-of-type(2) span:first-child p:first-child{
+    background-color: yellow;
+}
+
+li:only-of-type section:nth-child(1) h1:only-child{
+background-color: red;
+}
+
+li:only-of-type h1:nth-last-child(2){
+background-color: yellow;
+} 
+
+nav:only-of-type h1:last-child{
+background-color: green;
+}
+
+div:nth-last-of-type(3) h1:first-child
+{
+    background-color:pink;
+}
+div:nth-last-of-type(3) h1:nth-child(2)
+{
+    background-color: BLUE;
+}
+h1:nth-last-child(11),
+h1:nth-last-child(12) 
+{
+     background-color: orange;
+}
+div:nth-last-of-type(2) span:nth-child(2) p:nth-child(2){
+    background-color: blueviolet;
+}
+/* h1[class=h1]{
+    background-color: aqua;
+} */
+/*
+div:nth-last-of-type(2)  div:first-child h1:first-child{
+    background-color: aqua;
+}
+
+
+div:nth-last-of-type(2) div:first-child h1:last-child{
+    background-color: burlywood;
+}
+section:last-child  h1:last-child{
+    background-color: chartreuse;
+}
+
+*/
+
+
+
+/* my practic task */
+
+div:nth-last-of-type(4)  h1:nth-child(3)
+{
+    background-color: yellow;
+}
+
+div:nth-last-of-type(4) h1:nth-child(5)
+{
+    background-color: yellow;
+}
+
+div:nth-of-type(3) div:first-of-type h1:nth-child(3)
+{
+    background-color: yellow;
+}
+
+div:nth-of-type(3) span:nth-of-type(1) h1:nth-child(2){
+    background-color: yellow ;
+}
+
+
+
+div:nth-of-type(3)  div:nth-of-type(2) h1:nth-child(2){
+    background-color: yellow;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) span:first-child  h1:first-child{
+    background-color: aqua;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) span:first-child  h1:nth-child(4),h1:nth-child(5){
+    background-color: aqua;
+}
+
+div:nth-of-type(2) section:nth-child(1) span:first-child  h1:nth-child(4){
+    background-color: aqua;
+}
+div:nth-of-type(2) section:nth-of-type(1) span:nth-of-type(2) h1:nth-of-type(3){
+    background-color: brown;
+}
+
+section:nth-child(9) h1:nth-child(2){
+    background-color: green;
+}
+
+
+div:nth-of-type(4)  section:first-of-type h1:nth-child(2){
+    background-color: green;
+}
+
+div:nth-of-type(4)  section:first-of-type h1:nth-child(3){
+    background-color: green;
+} 

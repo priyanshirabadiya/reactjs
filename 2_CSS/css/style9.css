@@ -1,0 +1,249 @@
+.font-family{
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.d-none h1{
+    display: none;
+}
+
+.d-inline{
+    background-color: blueviolet;
+    display: inline;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+.inline{
+   background-color: aqua;
+   height: 100px;
+   width: 150px;
+    display:inline-block;
+}
+
+.demobox div{
+    height: 100px;
+    width: 300px;
+    background-color: yellow;
+    display: inline-block;
+}
+/* 
+.pre {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display:inline;
+} */
+
+.h5 h5{
+
+    background-color: aqua;
+    display: block;
+}
+
+.prey h4{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    /* display: block; */
+    display: inline;
+}
+
+
+.demobox-1{
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+    background-color: blueviolet;
+     /* display: inline; */
+}
+
+
+
+
+/* css flex properties */
+
+.mainbox{
+    height: 1000px;
+    width: 1300px;
+    background-color: rgb(199, 198, 199);
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+/*  box size puri thai jase to work krine niche vai avsa*/
+
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: flex;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    background-color:red;
+    display: flex;
+    flex-shrink: 2;
+  
+}
+.box-3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    /* display: flex; */
+    flex-grow: 0.3;
+  
+} 
+ .box-4{
+    height: 100px;
+    width: 100px;
+    background-color: peru;
+    display: flex;
+    flex-basis: 500px;
+    /* flex: 0 1 150px;  */
+    /* shrink */
+    /* flex: 0 0 200px; */
+    /* BASIS */
+    /* flex: 3 0 auto; */
+    /* grow */
+    /* flex: 0 1 auto; */
+    /* SHRIP */
+}
+
+.box-5{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.box-6{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+}
+.box-7{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+}
+
+
+
+/* css flex box / flox container properties */
+
+.prebox{
+     display: flex;
+    height: 500px;
+    width: 300px;
+    border: 5px solid red;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* left right leva mate */
+    /* work in parent class */
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+
+
+    /* uuper niche leva mate */
+    /* parent ma work krse uuper niche aave te */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+
+    /* child class ma work kre */
+    /* child pn uuper ni che jashe kato center ma  */
+    /* align-self: flex-start; */
+    /* align-self: flex-end;  */
+    /* align-self: center; */
+    /* align-self: start;  */
+    /* align-self: end; */
+    /* align-self: self-start; */
+    /* align-self: self-end; */
+    
+
+    /* justify type work krse uuper niche lava */
+    /* contain ne move kre */
+    /* align content mate wrap add krvu */
+/* aakho wrap krel ni vacche je space re che dur krse */
+/* aditing of only wrap */
+    /* flex-wrap: wrap;
+    align-content: center; */
+    /* align-content: start; */
+    /* align-content: end; */
+    /* align-content: flex-start; */
+    /* align-content: flex-end; */
+
+
+    /* row ma trasa and column ma uubha box kre */
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-flow: nowrap;
+    flex-flow: wrap;
+    flex-flow: row-reverse wrap;
+    flex-flow: column wrap;
+    flex-flow: row-reverse wrap-reverse; */
+
+} 
+
+.pre-1{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+     order: 0;
+    /* flex: 1; */
+}
+.pre-2{
+    background-color: blueviolet; 
+    height: 50px; 
+    width: 50px ;
+    display: flex;
+    order: 1;
+}
+
+.pre-3{
+
+background-color: blanchedalmond;
+ height: 50px; 
+ width: 50px ;
+ order:3;
+ 
+}
+.pre-4{
+background-color: cadetblue; 
+ height: 50px; 
+ width: 50px ;
+ order:2;
+}
+
+.pre-5{
+    background-color: brown; 
+    height: 50px;
+     width: 50px ;
+     order: 4;
+}
+.pre-6{
+    background-color: chartreuse;
+      height: 50px; 
+      width: 50px ;
+      display: flex;
+    flex-direction:column;
+    order: 5;
+      
+}
+.pre-7{
+    background-color: yellow;
+      height: 50px;
+       width: 50px ;
+       order:6;
+    }

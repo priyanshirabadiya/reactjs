@@ -1,0 +1,57 @@
+.carousel{
+    position: absolute;
+    height: 100px !important;
+}
+
+button{
+    position: relative;
+    margin-top: 28rem;
+}
+
+.carousel-indicators button{
+    bottom: 0;
+    top: 23rem;
+}
+.carousel-control-prev{
+    background-color: white;
+    background-size: cover;
+    line-height: 10px;
+    color: black;
+}
+button .carousel-control-prev{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+i{
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.fa-solid
+{
+    display: inline-block;
+    display: flex;
+    align-items: center;
+
+}
+/* ------------------------------- */
+.carousel-item{
+    height: 50rem;
+    width: 50rem;
+    background-size: cover;
+}
+
+.carousel-item 
+{
+    transition: .2s linear;
+
+
+}
+
+
+
+
+

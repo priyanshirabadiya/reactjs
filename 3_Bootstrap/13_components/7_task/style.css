@@ -1,0 +1,24 @@
+  @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Martian+Mono&family=Montserrat:wght@300;400&family=PT+Serif&family=Poppins:ital,wght@0,300;0,400;1,400&family=Public+Sans:wght@100;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
+
+  body {
+      background-color: aliceblue;
+  }
+
+  .l1 {
+      background-color: white;
+      height: 60px;
+  }
+
+  a {
+      color: black;
+  }
+
+  .tails {
+      font-family: 'Pacifico', cursive;
+  }
+  .row{
+    background-color: white;
+  }
+
+
+

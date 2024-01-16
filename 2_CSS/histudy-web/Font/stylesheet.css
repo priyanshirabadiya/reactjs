@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-CondensedBold.eot');
+    src: url('HelveticaNeue-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue-CondensedBold.woff2') format('woff2'),
+        url('HelveticaNeue-CondensedBold.woff') format('woff'),
+        url('HelveticaNeue-CondensedBold.ttf') format('truetype'),
+        url('HelveticaNeue-CondensedBold.svg#HelveticaNeue-CondensedBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

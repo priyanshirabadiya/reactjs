@@ -1,0 +1,102 @@
+body {
+    background-color: aliceblue;
+
+}
+
+.col-lg-5 {
+    margin-top: 10%;
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    box-shadow: 0 0 8px 5px rgb(222, 222, 222);
+}
+
+.div {
+    padding: 15px 60px 15px 60px;
+
+}
+
+h5 {
+    position: absolute;
+    margin-top: 110px !important;
+}
+
+button {
+    border: 0;
+    background-color: #6437e2 !important;
+    width: 100% !important;
+}
+
+.col-lg-5:nth-child(1) {
+    height: 400px;
+    width: 500px;
+    background-color: white;
+}
+
+.col-lg-5:nth-child(2) {
+    height: 350px;
+    width: 500px;
+}
+
+.f-p .text-center {
+    color: rgb(62, 224, 62);
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.btn {
+    padding: 4px 7px 4px 7px;
+    background-color: rgb(226, 255, 226);
+}
+
+.next {
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: start !important;
+
+}
+
+.next-2 {
+    height: 60px;
+    background-color: #065384;
+    margin-top: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+
+}
+
+.row>* {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+a {
+    align-items: center !important;
+    display: flex !important;
+    justify-content: center !important;
+
+}
+
+.next {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.navy-blue {
+    margin-top: 155px;
+    /* background-color: #295b7b; */
+    background-color: #004A77;
+}
+
+.p-vala {
+    color: #bddef2;
+}
+
+.col-4 {
+    padding: 10px 13px 10px 13px;
+    border: 1px solid #0c5b8b;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+</head>
+<body>
+    
+    <img src="/nav.jpg" alt="Workplace" usemap="#workmap"width="300" height="279">
+
+    <map name="workmap">
+      <area shape="rect" coords="34,44,270,350" alt="Computer" href="9_ref.html">
+      <area shape="rect" coords="290,172,333,250" alt="Phone"  href="9_ref3.html" >
+      <area shape="circle" coords="337,300,44" alt="Cup of coffee " href="9_ref2.html">
+    </map>
+
+    <data ></data>
+    <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+    <p>press <kbd>ctrl</kbd>+<kbd> v </kbd>to paste text.</p>
+
+   
+    <label for="disk_c">Disk usage C:</label>
+    <meter id="disk_c" value="2" min="0" max="10">2 out of 10</meter><br>
+    
+    <canvas height="300" style="background-color: brown;">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</canvas>
+    
+      <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range" id="a" value="50">
+        +<input type="number" id="b" value="25">
+        =<output name="x" for="a b"></output>
+        </form>
+
+  </body>
+</html>

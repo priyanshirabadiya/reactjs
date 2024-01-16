@@ -1,0 +1,17 @@
+.main .alert{
+    height: 200px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+.main .icon {
+    width: 350px;
+}
+.main .icon i{
+    margin-bottom: 20px;
+    margin-left: 170px;
+}
+.main a{
+    text-decoration: none;
+    color:#7C151C;
+}

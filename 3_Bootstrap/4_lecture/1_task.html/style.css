@@ -1,0 +1,126 @@
+fieldset {
+    margin: 50px;
+    width: 1100px;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 70px;
+    display: flex;
+}
+
+.img-1 img {
+    height: 400px;
+    width: 450px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    max-width: 500px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.btss {
+    margin-left: 20px;
+}
+
+.btss button {
+    height: 40px;
+    width: 40px;
+}
+
+.para {
+    display: flex;
+    height: 100px;
+}
+
+.para p {
+    font-size: 22px;
+}
+
+.para i {
+    cursor: pointer;
+}
+
+.para img {
+    margin-left: 10px;
+    color: #327af5;
+    cursor: pointer;
+}
+
+.lines {
+    display: flex;
+    margin-top: -50px;
+}
+
+.lines .left {
+    height: 15px;
+    width: 150px;
+    border-bottom: 2px solid rgb(233, 227, 227);
+}
+
+.p-div p {
+    padding: 0px 10px 0px 10px;
+}
+
+@media (max-width:800px) {
+    .main {
+        margin-top: 50px;
+        display: flex;
+    }
+    .para {
+        display: flex;
+        justify-content: center;
+    }
+
+    .lines {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-1 {
+        flex-wrap: wrap;
+    }
+
+    .content {
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width:450px) {
+
+    .main {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .container {
+        margin: 0px;
+    }
+
+    .img-1 {
+        display: none;
+    }
+
+    .para {
+        margin-bottom: 80px;
+    }
+
+    .content {
+        max-width: 300px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+}

@@ -1,0 +1,103 @@
+a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    box-shadow: 3px 0px 18px #bdbcbc;
+}
+.texx{
+    max-width: 1500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.con{
+    max-width: 1000px;
+    color: gray;
+}
+.f-container .container{
+    max-width: 900px;
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.three-box .container{
+    max-width: 900px;
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+.f1{
+    height: 50px;
+    background-color: #f5f3f3;
+    border-bottom: 1px solid rgb(186, 177, 177);
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+.three-box .col-md-3{
+    background-color: white;
+    height: 250px;
+    width: 230px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px #dfdddd;
+    border: 1px solid rgb(186, 177, 177);
+}
+.texts{
+    text-align: center;
+}
+.f-line{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: gray;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.f-2-line{
+    margin-top: 10px;
+    line-height: 5px;
+    text-align: center;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.but button{
+    width: 80%;
+    border-radius: 5px;
+    color: rgb(0, 98, 255);
+    background-color: white;
+    border: 1px solid rgb(0, 98, 255);
+    padding: 5px 20px 5px 20px;
+}
+.new-class .container{
+    margin-top: 60px;
+     max-width: 900px;
+     
+}
+.new-class .container hr{
+    margin-bottom: 50px;
+}
+.new-class .container .col-md-3 p{
+    font-size: 13px;
+    color: gray;
+    line-height: 1px;
+    margin-top: 10px;
+}
+.col-12{
+    text-align: center;
+}
+
+

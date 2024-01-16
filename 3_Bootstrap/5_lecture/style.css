@@ -1,0 +1,43 @@
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-header button{
+    height: 40px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color:#213744;
+    color: white;
+}
+.accordion-header button:focus{
+    background-color:#213744;
+    color: white;
+}
+.line{
+    display: flex;
+}
+.line:hover{
+    width: 150px;
+    height: 40px;
+    border-left: 1px solid white;
+    justify-content: space-between;
+    .lii{
+        display: none;
+    }
+}
+.con{
+    width: 1550px;
+}
+.line:hover{
+    .one{
+        margin-top: 10px;
+    }
+}
+.lii i{
+    right: 0px;
+    max-width: 800px;
+    right: 0;
+}
+.accordion-header{
+    display: flex;
+    justify-content:space-between;
+}

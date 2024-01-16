@@ -1,0 +1,185 @@
+.main{
+    width: 654px;
+    border: 2px solid black;
+    display: flex;
+    }
+
+.mainbox{
+
+min-height: 60vh;   width: 80px;
+border: 2px solid black;
+text-align: center; 
+
+}
+
+    .mainbox-1{
+
+        min-height: 60vh;
+        width: 80px;
+        border: 2px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;  
+        /* align-items: end; */
+
+    }
+        
+
+
+        /* -------------------------- */
+
+        .mainbox-2{
+            min-height: 60vh;
+            width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;            
+        }
+         
+      .mainbox-3{
+            min-height: 60vh;
+            width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;            
+        }
+        .mainbox-4{
+            min-height: 60vh;
+            width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;            
+        }
+
+        
+        .box-1{
+
+            height: 10vh;
+            width: 75px;
+            margin:2px;
+            background-color: aquamarine;
+            }
+            
+            .box-2{
+                
+              height : 20vh;
+                width: 50px;
+                margin:2px;
+                background-color: aquamarine;
+            
+            }
+            .box-3{
+                
+              height: 10vh;
+                width: 75px;
+                margin:2px;
+                background-color: aquamarine;
+                }
+
+
+
+        .mainbox-5{
+            min-height: 60vh;
+            width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;            
+        }
+
+        .box-4{
+            height: 5vh;
+            width: 75px;
+            margin:2px;
+            background-color: aquamarine;
+            }
+            
+        .box-5{
+                height : 3vh;
+                width: 50px;
+                margin:2px;
+                background-color: aquamarine;
+             }
+        .box-6{
+                height: 7vh;
+                width: 75px;
+                margin:2px;
+                background-color: aquamarine;
+                }
+
+        .mainbox-6{
+            min-height: 60vh;
+            width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;            
+        }
+        .box-7{
+            height: 20vh;
+            width: 75px;
+            margin:2px;
+            background-color: aquamarine;
+            }
+            
+        .box-8{
+                height : 20vh;
+                width: 55px;
+                margin:2px;
+                background-color: aquamarine;
+            
+            }
+            .box-9{
+                height: 20vh;
+                width: 65px;
+                margin:2px;
+                background-color: aquamarine;
+            }
+
+
+        .mainbox-7{
+            min-height: 60vh;
+            max-width: 80px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            text-align: center;            
+        }
+
+        .box-10{
+            height: 5vh;
+            width: 75px;
+            margin:2px;
+            background-color: aquamarine;
+            }
+            
+            .box-11{  
+              height : 20vh;
+              width: 50px;
+              margin:2px;
+              background-color: aquamarine;
+            
+            }
+            .box-12{
+                height: 7vh;
+                width: 75px;
+                margin:2px;
+                background-color: aquamarine;
+            }
+
+
+
+
+
+
+            

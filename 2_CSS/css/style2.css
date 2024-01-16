@@ -1,0 +1,250 @@
+/* biji style sheet file aapvi same thi work karse nai */
+/* @import "style1.css"; */
+.thala p{
+    color: rgb(24, 21, 160);
+    background-color: rgb(198, 117, 18);
+    border: 2px solid rgb(228, 31, 31);
+
+}  
+
+
+
+/* resetting all valuses */
+
+.para-11 p{
+    color: rgb(12, 15, 188);
+}
+ .para-11  h1{
+    color: rgb(234, 255, 0);
+    background-color: chocolate;
+    padding: 10px 20px;
+    border: 3px solid black;
+}
+
+
+.para-22 p{
+    color: aqua;
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+
+/* simple tag sector */
+/* p{
+    color: aqua;
+}
+ */
+
+/*css multiple class sector*/
+
+ .div-2 {
+    color: brown;
+}
+
+/*css multi class*/
+/* gme te div nakhye css aapse */
+.div-1{
+
+    color: aqua;
+}
+
+
+
+
+
+/*unique id selector*/
+
+/* vadhare kai nthi just id ma # no uupyog karvo */
+#box-1 {
+    color: rgb(119, 128, 0);
+}
+#box-1 {
+    color: rgb(128, 0, 0);
+}
+
+#box-2{
+    color: chartreuse;
+}
+#box-2{
+    color: brown;
+}
+
+
+/* all sectors--------------------- */
+/*combinator sector*/
+
+.demo-1 a{
+    color: rgb(0, 8, 255);
+}
+.demo-1 h1{
+    color: orangered;
+}
+
+/* it can't work without div its works in under of div  */
+/* jetla p div tag ni unser na tag hse tetla badha ne css aapse */
+/* child selector */
+/* .demo-2 > p{
+    color: rgb(84, 48, 4);
+    background-color: rgb(226, 43, 49);
+} */
+/* 1 ->under of div */
+
+
+/* general sibling selector */
+/* div ni bar banne jayyaye work karse  pehla ~ vala tag ne prefer krse atle demo-2 ni nichena baDHA */
+/* demo-3 /2 means je nakhyu hoi  teni  ni  nichena badha elements dhyan per leshe */
+/* tag nakhvo not class  */
+/* parent div ni bar work kre */
+div ~ h1{
+    color: indianred;
+    padding: 10px 20px;
+}
+/* 1 -> under of div */
+
+
+
+/* div ni uunder rj work karse  */
+/* Adjecent sibling selector */
+/* p ni nichenu leshe */
+
+/* p + h1{
+    color: rgb(23, 228, 61);
+    background-color: rgb(86, 43, 226);
+    padding: 10px 20px;
+}  */
+
+
+
+
+
+/*div ni bar  work karse .demo -2 nichena badha p pag pr kam krse */
+div ~ p{
+    color: rgb(64, 198, 193);
+}
+
+
+/* link sector---------- 
+
+link 
+active
+hover
+visited   */
+
+/* page open hoi tyre color je batave te */
+
+/* .option-2{
+    color: rgb(0, 187, 255);
+} */
+a {
+    color: hotpink;
+}
+a:visited{
+
+    color: rgb(9, 255, 0);
+}
+
+/* touch kriye tyare color batave */
+a:hover{
+    color: rgb(229, 255, 0);
+}
+
+/* click kriye tyare color batave */
+a:active{
+    color: rgb(64, 43, 226);
+}
+
+
+
+
+
+
+/* css color---------- */
+
+.pre-1{
+    background-color: red;
+    height: 50px;
+    width: 500px;
+    color: rgb(14, 14, 4);
+}
+.pre-2{
+    height: 40px;
+    width: 500px;
+    background-color:rgba(255, 99, 71, 0.2);
+}
+
+.pre-3{
+    height: 40px;
+    width: 500px;
+    background-color:rgba(255, 99, 71, 0.4);
+}
+.pre-4{
+    height: 40px;
+    width: 500px;
+    background-color:rgba(255, 99, 71, 0.6);
+}
+
+.pre-4{
+    height: 40px;
+    width: 500px;
+    background-color:rgba(255, 99, 71, 0.8);
+}
+
+body{
+    background-color: #e6e6e0;
+}
+
+/* background properties */
+.back-1{
+    height: 100px;
+    width: 1000px;
+    background-color: aquamarine;
+}
+
+.back-2{
+    background-image:url('../images/child2.jpg');
+    height:500px;
+    width: 1500px;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position:center;
+    background-attachment: fixed;
+    background-size: 80% 80%; 
+   
+}
+
+
+.liner{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to top,hsl(0, 100%, 40%),rgb(140,255,255));
+}
+
+.binar{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to top left,red, yellow 80%);
+}
+
+.liner-grediant{
+    height: 500px;
+    width: 100%;
+    background:linear-gradient(to left,red,orange,green,yellow,blue,indigo,violet)
+}
+.liner-grediant-p{
+    height: 500px;
+    width: 100%;
+    background: repeating-radial-gradient(red,red 15%,white 10%,white 20%);
+
+}
+
+.pre-5{
+    height: 500px;
+    width: 100%;
+    background:radial-gradient(circle farthest-corner at right,red,blue)
+}
+
+.pre-6{
+    height: 500px;
+    width: 100%;
+    background: repeating-linear-gradient(0deg,yellow,yellow 10%,black 10%,black 20%)    
+}
+

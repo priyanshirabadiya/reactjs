@@ -1,0 +1,100 @@
+.main{
+    height: 700px;
+    width: 100;
+    margin: 10px;
+}   
+.main-2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 100px;
+    position: relative;
+}
+.f-1{
+    max-width: 400px;
+}
+.f-1 h1{
+    font-size: 25px;
+}
+.f-1 p{
+    line-height: 20px;
+}
+.p-div{
+    margin-top: 20px;
+}
+.lines{
+    display: flex;
+}
+.lines-2{
+    margin-top: 2px;
+    display: flex;
+}
+.g-1{
+    height: 5px;
+    width: 5px;
+    background-color: black;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+/* ***** */
+.box{
+    height: 460px;
+    width: 360px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 30px;
+}
+h5{
+    letter-spacing: -1px;
+}
+.box p{
+    font-size: 15px;
+}
+.p-tag{
+    display: flex;
+}
+.form-check{
+    margin-top: 20px;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+}
+.for{
+    position: relative;
+    max-width: 300px;
+    background-color: aqua;
+}
+.for a{
+    position: absolute;
+    right: 0px;
+}
+.p-div-2{
+    position: relative;
+    margin-top: 50px;
+}
+.p-div-2 p{
+    margin-bottom: 0px;
+}
+.p-div-2 button{
+    height: 40px;
+    width: 40px;
+}
+@media (max-width:800px) {
+   .main-2{
+    display: flex;
+    flex-wrap: wrap;
+   } 
+   .f-1{
+    margin-bottom: 100px;
+   }
+   .box{
+    height: 460px;
+    width: 260px;
+    margin-left: 0px;
+   }
+}

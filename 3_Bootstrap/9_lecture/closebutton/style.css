@@ -1,0 +1,82 @@
+button span {
+    border-radius: 100% !important;
+    padding: 3px !important;
+    font-size: 10px;
+    /* font-weight: 600; */
+    /* padding-left: 6px; */
+    /* padding-right: 6px; */
+    padding-top: 0;
+    padding-bottom: 1px;
+    align-items: center;
+    /* background-color: aqua !important; */
+}
+
+.col {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.col-md-8 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.col-md-4 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.col-sm-3 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.col-sm-9 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.col-sm-6 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+.col-8 {
+    background-color: rgba(var(--bs-success-rgb), .5) !important;
+    border: 2px solid black;
+}
+.container-fluid{
+    background-color: cadetblue;
+}
+.container{
+    background-color: rgb(193, 187, 187);
+}
+div{
+    background-color: chartreuse;
+}
+
+.container-sm{
+    background-color: aqua;
+}
+.container-md{
+    background-color: blueviolet;
+}
+.container-lg{
+    background-color:blue;
+}
+.container-xl{
+    background-color: aqua;
+}
+.container-xxl{
+    background-color: brown;
+}
+.p-3{
+    border: 2px solid black;
+}
+
+.icon-link>img {
+    flex-shrink: 0;
+    width: 1em;
+    height: 1em;
+    fill: currentcolor;
+    transition: .2s ease-in-out transform;
+}  

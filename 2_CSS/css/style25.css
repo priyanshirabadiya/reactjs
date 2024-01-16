@@ -1,0 +1,197 @@
+/* css grid  */
+
+.grid-flex {
+  display: flex;
+  border: 2px solid black;
+  /* width: 200vw; */
+}
+
+.grid-item-flex {
+  background-color: rgba(229, 29, 29, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto 100px 100px auto auto 300px auto auto auto;
+  border: 2px solid black;
+}
+
+.grid-item {
+  background-color: rgba(229, 192, 192, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  /* trasu */
+  grid-template-rows: 10vh 20vh 40vh 40vh;
+  grid-template-columns: 50vh 50vh 50vh 50vh;
+  border: 2px solid black;
+}
+
+
+
+/* Css Grid Inline */
+
+.grid-container-inline {
+  /* display: grid; */
+  display: inline-grid;
+  grid-template-columns: 10vw auto 20vw 20vw auto auto;
+  grid-template-rows: 10vh 20vh;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/*
+
+Row Gap 
+Column Gap 
+Gap  
+
+*/
+
+/* Column Gap */
+
+.grid-container-column {
+  display: grid;
+  column-gap: 100px;
+  grid-template-columns: 200px 200px 200px 200px;
+  background-color: #2196F3;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+/* Row Gap */
+/* % gap ae bg color ni height vadharshe nai */
+/* width auto chalse jem row-gap vadhshe tem chalse  */
+/* height 100% rehshe pchi column-gap vadhshe to bg-color thi bar nikali jashe */
+.grid-container-row {
+  display: grid;
+  row-gap: 500px;
+  column-gap: 1000px;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  background-color: #2196F3;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Gap */
+
+.grid-container-gap {
+  display: grid;
+  gap: 200px;
+  grid-template-columns: 100px 100px 100px;
+  background-color: #2196F3;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+/* Grid Column Lines */
+
+.grid-column-line-1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-column-line-1 div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border: 2px solid blue;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+/* Grid Row Lines */
+
+
+.grid-row-line {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px auto auto auto;
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+
+}
+
+.grid-row-line div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  border: 2px solid black;
+}
+
+.item1 {
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.item2 {
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.item6 {
+  grid-column-start: 3;
+  grid-column-end: 6;
+}
+
+
+
+
+/* .item1 {
+    grid-row-start: 1;
+    grid-row-end:6;
+  }
+  .item2 {
+    grid-row-start: 1;
+    grid-row-end:6;
+  }
+  .item3 {
+    grid-row-start: 1;
+    grid-row-end:6;
+  }  */

@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(250, 248, 248);
+}
+.items{
+    align-items: center;
+    text-align: center;
+}
+fieldset{
+    height: 490px;
+    width: 600px;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.border{
+    margin-top: 20px;
+}
+.main-box{
+    position: relative;
+    padding: 20px;
+}
+.f-1-div{
+    height: 100px;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.f-1-div .input-group{
+    margin-left: 15px;
+}
+
+.input-group button{
+    position: absolute;
+    width: 175px;
+
+}
+.button-addon2 button{
+    border: 0px;
+}
+i{
+    margin-right: 5px;
+}
+.next-div-big{
+    display: flex;
+}
+.next-div-big .input-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.next-div-big .input-group button{
+
+    border-radius: 3px;
+    text-align: start;
+}
+.next-div-big .sec button{
+    width: 130px;
+    border-radius: 3px;
+}
+.sec i{
+    margin-left: 5px;
+}
+label{
+    margin-bottom: 10px;
+}
+.label-div{
+    max-width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-div{
+    width: 100%;
+    height: 80px;
+    width: 100%;
+    background-color:rgb(245, 240, 240) ;
+}
+.last-div button{
+    margin-top: 0px;
+    width: 100%;
+}

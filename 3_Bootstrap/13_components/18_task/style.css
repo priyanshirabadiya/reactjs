@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+}
+
+.f1{
+    margin-top: 80px;
+}
+.col-4{
+    width: 25vw;
+    height: 230px;
+}
+
+.red{
+    background-color: rgb(192, 25, 25);
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.red-main{
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,303 @@
+body{
+    margin: 0;
+}
+
+
+input{
+    accent-color: pink;
+}
+
+/* accent-color*/
+
+input[class="maincheck"]{
+    accent-color: brown;
+}
+input[type="radio"]{
+     accent-color: brown;
+} 
+
+
+/* 
+    :disabled
+    :enabled(defult)
+    ::placeholder
+    :checked
+    :focus
+    :hover
+    :required
+    :invalid
+    :valid 
+    ::marker
+
+*/
+
+input[type=text]:disabled{
+    background-color: rgb(123, 255, 0);
+}
+
+input{
+    border-radius: 3px;
+}
+
+
+input::placeholder{
+    color:rgb(170, 163, 163)
+}
+
+/* on click work */
+input:focus{
+    border: 2px solid rgb(12, 22, 70);
+    border-radius: 2px;
+}
+
+/* first name */
+/* only cerser move kriye tyare work krse */
+input:hover{
+    border-radius: 5px;
+    background-color: rgb(233, 228, 228);
+}
+
+input:invalid{
+    /* background-color: rgb(241, 11, 49); */
+    /* color: rgb(248, 15, 50); */
+}
+    
+input:valid{
+    color: black;
+    /* background-color: rgb(237, 145, 242); */
+}
+
+
+
+
+form:read-only{
+        font-size: 10px;
+        color: blue;
+    }
+
+  form  :read-write{
+        font-size: 10px;
+        /* color:aqua; */
+
+    }
+    :root{
+        --color-1:red;
+        --color-2:rgb(158, 147, 158);
+
+    }
+    /* ul tag ne css aape */
+    ::marker{
+    color:rgb(53, 17, 213);    
+
+    }
+
+    .box-1{
+        height: 20px;
+        color: var(--color-1);
+    }
+
+    [target=_blank]
+    {
+        color: rebeccapurple;
+        text-decoration: none;    
+    }
+
+    [target=_self]
+    {
+        color: rebeccapurple;
+        text-decoration: overline;    
+    }
+
+   :lang("en"){
+        color: green;
+        background-color: red;
+    }
+
+
+/* css pseudo class */
+
+/*
+
+    :first-child
+    :first-of-type
+    :last-child
+    :last-of-type
+    :nth-child()
+    :nth-last-child()
+    :nth-last-of-type()
+    :nth-of-type()
+    :only-of-type
+    :only-child
+    :odd(3n)
+    :even(2n)
+    :not()
+    :where
+    :target
+    :empty
+
+*/
+
+/* aek aakho kore kore child aema only h1 hovo joiye 2 h1 pn nai chale */
+ h1:only-child{
+    color: red;
+    background-color: yellow;
+}
+
+/* parent/ child no first h1 */
+ /* h1:first-of-type{
+    color: red;
+    background-color: yellow;
+}  */
+
+/* chho h1 leshe child no jo ii pahela p aavto hse to nai le */
+/* h1:last-child
+{
+    color: red;
+    background-color: yellow;
+} */
+/* jetlami position nakhi hse tetlamu thi last mu ganse */
+/* h1:nth-last-of-type(5)
+{ 
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1 and p1 banne am alag thi ganvanu start krse jo aapde : phela kai nai nakhyu hoi to */
+h1:nth-child(1){
+    color: red;
+    background-color: yellow;
+
+}
+
+/* child class na badha h1 nw=e ganse */
+/* h1 :only-of-type(1){
+    color: red;
+    background-color: yellow;
+
+} */
+
+
+/* child ni under only one h1 child  */
+/* h1:only-child
+{
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:odd(3n+5){
+    color: red;
+    background-color: yellow;
+} */
+
+/* h1:even(2n+5)
+{
+    color: red;
+    background-color: yellow;   
+} */
+
+
+
+/* css apply on p not in h1 */
+/* p:not(h1){
+    color: red;
+    background-color: yellow;   
+} */
+
+
+
+
+
+
+/* attributes selector */
+
+/* 
+    [attr]
+    [attr=value]
+    [attr~=value]
+    [attr|=value]
+    [attr^=value]
+    [attr$=value]
+    [attr*=value] */
+
+
+/* first  jya top mli jai tya css apply krse */
+/* [class^="top"] {
+    background: yellow;
+  } */
+
+  /* only and only  describe krel class n css aapse */
+/* 
+  [class="top"] {
+    background:yellow;
+  } */
+
+  /* only and only describe krel class ne css aapse */
+/* 
+  [class~="top"] {
+    background:yellow;
+  } */
+
+
+  /* top pchi - count krse ane te hoi to css aapse nkr only one ne j aapse */
+  /* [class|="top"] {
+    background:yellow;
+  } */
+
+
+  /* pachal jetla top dekhai te */
+  /* [class$="top"] {
+    background:yellow;
+  } */
+
+
+
+/* jetla t vala ni pachal gme te hoi tene badha ne css aapse ae rite */
+  [class*="t"] {
+    background:yellow;
+  }
+
+
+
+
+/* css pseudo element */
+
+/*
+    ::after
+    ::before
+    ::first-letter
+    ::first-line
+    ::selection
+*/
+
+
+/* css after and before */
+/* nana aeva BOX MATE */
+.box p::before{
+    content: " New cheper is coming up bro!!";
+    background-color: rgb(233, 10, 10);
+    text-decoration: underline;
+    height:18px;
+    width: 30px;
+    position: relative;
+}
+.box p::first-line{
+    background-color: rgb(224, 163, 163);
+    text-decoration: line-through;
+    height: 60px; 
+     width: 30px;
+    position: absolute;
+    
+}
+
+p::selection{
+    color:rgb(208, 221, 208);
+    background-color: rgb(42, 94, 5);
+    text-decoration: line-through;
+}
+
+.shadow{
+    height: 50px;
+    width: 100px;
+    background-color: red;
+}
+

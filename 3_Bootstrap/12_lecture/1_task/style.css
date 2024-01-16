@@ -1,0 +1,35 @@
+.overlay {
+    height: 50px;
+    background-color: rgb(0, 145, 255);
+    width: 22vw;
+    margin-left: 5px;
+    margin-top: -33px;
+}
+
+.modal-dialog {
+    width: 25vw;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.cl-1{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 1px gainsboro;
+    position: relative;
+}
+.cl-1 i{
+
+    position: absolute;
+}
+.row img {
+    height: 3.3rem;
+    width: 3.3rem;
+}

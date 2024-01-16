@@ -1,0 +1,136 @@
+body{
+background-color: rgb(245, 242, 242);
+}
+p{
+    color: gray;
+}
+
+.class-1-h1{
+    padding-top: 50px;
+}
+.col-md-3{
+    height: 400px;
+    background-color: white;
+    border-radius: 40px ;
+    border: 10px solid rgb(245, 242, 242);
+}
+.img-class button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(165, 147, 42);
+    border-radius: 20px;
+    border: 0px solid black;
+    background-color: rgb(218, 218, 217);
+
+}
+.col-md-3{
+    padding: 0;
+}
+.col-md-3 .img-class{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 200px;
+    background-size: 300px 200px;
+    background-image:url(accests/asset\ 0.jpeg);
+}
+
+.man-class{
+    padding:10px;
+    display: flex;
+}
+.img-cla img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+}
+.man-class div:nth-child(2){
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.man-class div:nth-child(3){
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.icons{
+    display: flex;
+}
+.di-1{
+    background-color: rgb(247, 250, 253);
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.main-icon{
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.loren-para{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-md-3 .img-class-2{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 200px;
+    background-size: 300px 200px;
+    background-image:url(accests/asset\ 11.jpeg);
+}
+
+.img-class-2 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: brown;
+    border-radius: 20px;
+    border: 0px solid black;
+    background-color: rgb(218, 217, 217);
+}
+/* ------------- */
+.col-md-3 .img-class-3{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 200px;
+    background-size: 300px 200px;
+    background-image:url(accests/asset\ 23.jpeg);
+}
+
+.img-class-3 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: rgb(42, 93, 165);
+    border-radius: 20px;
+    border: 0px solid black;
+    background-color: rgb(217, 218, 218);
+}
+/* -------------- */
+.col-md-3 .img-class-4{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 200px;
+    background-size: 300px 200px;
+    background-image:url(accests/asset\ 45.jpeg);
+}
+
+.img-class-4 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: brown;
+    border-radius: 20px;
+    border: 0px solid black;
+    background-color: rgb(218, 217, 217);
+}

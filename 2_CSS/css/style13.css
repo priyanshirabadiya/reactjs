@@ -1,0 +1,450 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* css Position */
+
+
+/* scroll kriye to thse */
+.static{
+    height: 100px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    /* z-index:-3; */
+    background-color: gray;
+    border:2px solid  black;
+} 
+
+/* niche jase tyare choti jse */
+/* sticky div pchi bakina div jyare sroll krsu tyare stky div scroll thva lagse */
+.sticky{
+    position: sticky;
+    height: 200px;
+    background-color: blueviolet;
+    bottom: 0;
+    top: 200px;
+}
+
+
+
+
+/* static normal brhaviour */
+section {
+    position:static;
+    margin-right: 200px;
+    top: 0;
+    right: 0;
+    height: 60vh;
+    width: 300px;
+    background-color: pink;
+    /* scroll thse  acjet position per */
+}
+
+
+
+.div{
+    position:absolute;
+    width: 1200px;  
+    height: 200px;
+    background-color: rgb(244, 218, 157);
+    bottom: 300px;
+    /* z-index: 1; */
+    margin-left: 200px;
+    border-radius: 30px;
+}
+
+article{
+    display: flex;
+    justify-content:start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.relative {
+    position: static;
+    height: 100vh;
+    /* top: 100px;
+    left: 100px; */
+    background-color: rgb(233, 215, 215);
+}
+
+.absolute-1 {
+    position:absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    /* top: 650px;
+    left: 1400px; */
+    right: 0;
+    background-color: blue;
+}
+
+.absolute-2 {
+    /* position: absolute; */
+    position: relative;
+    height: 100px;
+    width: 100px;
+    /* top: 50px;
+    right: 50px; */
+    top: 80px;
+    left: 1400px;
+    background-color: red;
+}
+
+.absolute-3 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left: 0;
+    right: 0;
+    /* top: -50px; */
+    /* left: 300px;
+    right: 270px;; */
+    margin:auto;
+    background-color: green;
+}
+
+.absolute-4 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    /* top: -50px; */
+    left: 0;
+    background-color: blueviolet;
+}
+
+.absolute-5 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    background-color: orange;
+}
+
+.absolute-6 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    inset:0px;
+    /* top: 350px;
+    left: 700px; */
+    margin: auto;
+    background-color: slateblue;
+}
+
+.absolute-7 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    right:0;
+    margin: auto;
+    background-color: black;
+}
+
+.absolute-8 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    /* left: 0; */
+    background-color: pink;
+}
+
+.absolute-9 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    bottom: 0;
+    left:0;
+    right: 0;
+    margin: auto;
+    background-color:brown;
+}
+
+
+
+
+
+
+/* Z-index Propeties */
+/* 1 2 3 4 5 6 aem je motu hse te z index leshe */
+.z-index-1{
+    height: 500px;
+    width: 510px;
+    background-color: rebeccapurple;
+    position:absolute;
+    top: 50px;
+    left: 100px;
+    z-index:2;
+}
+
+
+.z-index-2{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(63, 153, 51);
+    position: absolute; 
+    z-index: 3;
+
+}
+
+/* float properties */
+
+
+
+
+/* css clear properties */
+
+
+
+
+/* overflow properties */
+
+.maindiv{
+    /* height: 0vh; */
+    height: 100px;
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    display: inline-block;
+
+
+}
+
+.box{
+    background-color:transparent;
+    display: flex;
+    border-radius: 50px;   
+    position:relative;
+     overflow:visible;
+    
+}
+
+.text{
+    justify-content: center;
+   padding-top: 50px;
+   padding-left: 50px;
+   padding-right: 50px;
+    position:absolute;
+    /* box-sizing: content-box; */
+    border-radius: 50px;
+    border: 2px solid rgb(51, 42, 42);
+}
+
+.main2{
+    display: inline-block;
+} 
+
+.text h2 , p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text .img-1{
+    position: absolute;
+    bottom: -100px;
+    /* right: 0; */
+    z-index: -1;
+}
+.text .img-2{
+    position: absolute;
+    top: -100px;
+    z-index: -1;
+} 
+
+/* css cursor properties */
+
+.alias {
+    cursor: alias;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.copy {
+    cursor: copy;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.default {
+    cursor: default;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.grab {
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}
+
+.help {
+    cursor: help;
+}
+
+.move {
+    cursor: move;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.ns-resize {
+    cursor: ns-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.none {
+    cursor: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.text {
+    cursor: text;
+}
+
+.url {
+    cursor: url(myBall.cur), auto;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}
+
+
+/* css object-fit properties */
+
+/*  fill / contain / cover / scale-down / none */
+
+
+
+.box {
+    height: 1200px;
+    width: 600px;
+    /* overflow:cover; */
+}
+
+.box img {
+    width: 600px;
+    height: 600px;
+    object-fit:scale-down;
+}

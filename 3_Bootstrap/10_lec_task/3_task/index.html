@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar  fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Offcanvas navbar</a>
+      <button class="btn " data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+        aria-controls="offcanvasWithBothOptions">
+        <i class="fa-solid fa-bars fa-lg" data-bs-toggle="offcanvas" style="color: #000000;"></i>
+      </button>
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title text-bg-primary " id="offcanvasWithBothOptionsLabel">
+            <h2 class="text-light"><i class="bi bi-chat-right-text "></i>
+              Sidebar</h2>
+          </h5>
+        </div>
+        <!-- -----dropdown--------------------- -->
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  position-relative">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                <h5><strong>
+                    <i class="fa-solid fa-chevron-right me-2" style="color: #666e7a;"></i>Home</strong></h5>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6 class="mt-3">Over-View</h6>
+                <h6>Updates</h6>
+                <h6>Reports</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  position-relative">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                <h5> <i class="fa-solid fa-chevron-right me-2" style="color: #666e7a;"></i><strong>Dashboard</strong>
+                </h5>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6 class="mt-3">Over-View</h6>
+                <h6>Updates</h6>
+                <h6>Reports</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  position-relative">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                <h5><strong><i class="fa-solid fa-chevron-right me-2" style="color: #666e7a;"></i>Orders</strong></h5>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6 class="mt-3">Over-View</h6>
+                <h6>Updates</h6>
+                <h6>Reports</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item  ">
+            <h2 class="accordion-header  position-relative">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                aria-expanded="false" aria-controls="collapsefour">
+                <h5><strong><i class="fa-solid fa-chevron-right me-2" style="color: #666e7a;"></i>Account</strong></h5>
+              </button>
+            </h2>
+            <div id="collapsefour" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h6 class="mt-3">Over-View</h6>
+                <h6>Updates</h6>
+                <h6>Reports</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="cin  ">
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quidem et, ut quae, debitis nam velit hic
+        illum repudiandae eius modi suscipit qui tenetur eos ex nobis laborum? Earum, officia?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur minus illum repudiandae adipisci ea
+        voluptate omnis, ad, eligendi sequi beatae quos dolore culpa tenetur? Esse culpa voluptatibus vel ratione
+        fugit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut est harum laboriosam modi dignissimos
+        tempora velit numquam quibusdam minima reiciendis tenetur facilis itaque tempore laborum molestiae distinctio,
+        quod iste nostrum eligendi quam ratione unde ipsam. Natus, ratione ea. Dolore tenetur doloremque ducimus!
+        Explicabo nulla architecto fugiat ipsa quis excepturi consequuntur eos perferendis rem modi nobis ab, omnis
+        ex, est perspiciatis facilis mollitia? Debitis, accusantium. Neque, veniam in. Officia minima mollitia
+        architecto maxime fugit sunt beatae ullam quos animi sequi fuga neque expedita quidem, facilis tempora
+        laborum? Eaque modi animi deleniti aut excepturi sed rerum nam voluptatibus reprehenderit sunt impedit
+        explicabo tempora amet rem magni delectus autem doloribus, in, repellat velit quisquam, a laboriosam. Deserunt
+        rem autem repellendus qui minus aperiam, rerum labore reiciendis, nisi error eaque non facilis? Reprehenderit,
+        facere? Dolorum distinctio error, nihil animi at tempore quaerat obcaecati, nisi quo reiciendis facere fugit
+        natus, consequatur accusantium perferendis voluptatum! Dolores est saepe numquam temporibus minus, impedit
+        aliquid natus distinctio at vel odio? Natus consequatur eligendi odio, soluta enim a, explicabo ipsam
+        consequuntur porro quia temporibus, facere cum dignissimos? Suscipit dolores nobis magnam, tempore iusto
+        tenetur delectus distinctio in ad nisi ab vel voluptatum vitae excepturi porro odit, consequatur saepe
+        obcaecati inventore ea ipsum? Molestias ullam voluptatum, rerum eum veniam rem deserunt nemo deleniti qui
+        facilis iste ratione incidunt distinctio voluptate obcaecati voluptates voluptatem enim quia magni provident
+        at reiciendis repudiandae, culpa praesentium! Placeat ex magnam iusto molestiae necessitatibus esse quam
+        tempore. Aliquid fuga vero molestias illo tempore dignissimos a consectetur quo officia? Quae dolore quia
+        eligendi facilis a fugit culpa enim nostrum nemo accusamus, delectus iure tenetur expedita sit! Delectus
+        nostrum quas sit vero eveniet, voluptatum possimus illum? Mollitia accusantium, minus quia adipisci quaerat
+        obcaecati labore quos repellendus explicabo quo nulla delectus eius! Aspernatur in fugiat suscipit aperiam ut
+        magnam sed ad distinctio repellendus! Temporibus, cupiditate modi vitae quasi neque ullam ducimus nulla iusto
+        eius dolorum recusandae, eaque quam voluptatibus voluptas maiores? Maiores, et ut! Voluptates suscipit
+        provident labore harum possimus a amet beatae voluptatum sint quod culpa, quaerat delectus rerum architecto
+        eaque, repellendus praesentium? Corrupti deserunt voluptatibus, sed, laboriosam aut repellendus quisquam
+        libero officia repellat earum cum aliquid est pariatur possimus? Nam iste officia aliquam minus assumenda.
+        Voluptatum optio aperiam expedita magnam delectus tempore dolorem amet minus soluta eveniet. Fuga, reiciendis
+        tempore, consequatur quis error assumenda voluptatem hic ratione minus quibusdam, adipisci beatae veritatis
+        repellendus quam odio quas molestiae repellat provident? Non iusto maxime dicta omnis officia ea, magnam nemo
+        veritatis quam officiis quisquam molestiae aspernatur modi saepe reiciendis corporis nobis. Amet sapiente odio
+        doloribus esse vero odit vel minus id modi labore corrupti, eaque ratione deserunt! Odit ullam minus excepturi
+        iste saepe, iusto veniam praesentium ut architecto quasi nulla at necessitatibus eum reiciendis cum voluptate?
+        Accusantium vel dolores est reiciendis earum dignissimos unde debitis, minus ea eius nulla iure aut
+        voluptatibus et, ab vitae illum aliquam repellendus eveniet similique magnam. Eligendi culpa veniam facere
+        blanditiis sequi vel veritatis praesentium nam eveniet inventore doloremque, labore modi? Aliquam, debitis
+        laudantium.
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+.div{
+    border:  5px solid red;
+}
+
+.p1{
+    /* background-color: brown; */
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.p1{
+    max-width: 1200px;
+}
+
+.w-full{
+    background-color: green;
+    z-index: 100;
+}
+

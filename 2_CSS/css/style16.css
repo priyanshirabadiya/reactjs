@@ -1,0 +1,74 @@
+.mainbox{
+
+    border: 2px solid black;
+    width: 800px;
+    height: 800px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+  align-items: flex-start;
+  height: 200px;  
+}
+
+ .box-1{
+    
+    height: 50px;
+    display: inline;
+    inline-size: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+    /* text-align: center;
+    align-self: stretch;*/
+    margin-inline: 100px; 
+    padding-inline: 100px;
+      }
+
+.box-2{
+    width: 150px;
+    height: 20px;
+    display: inline;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+    align-self: center;
+   
+
+} 
+ .box-3{
+    width: 150px;
+    height: 20px;
+    display: inline;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+} 
+
+.box{
+   
+  display: block;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+}
+.box>*:first-child {
+    align-self: stretch;
+    width: 150px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+.box .selected {
+    align-self: center;
+    width: 150px;
+    height: 20px;
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+    margin: 10px;
+}
+

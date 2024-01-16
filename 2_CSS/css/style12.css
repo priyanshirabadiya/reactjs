@@ -1,0 +1,171 @@
+/* AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA */
+a:first-child{
+    background-color: yellow;
+    color: red;
+}
+a:nth-child(4)
+{
+    background-color: yellow;
+}
+div:nth-last-of-type(1) div:nth-child(3)  a:nth-of-type(1) {
+    background-color: yellow;
+}
+
+
+
+/* 42 */
+ h1:nth-child(19){
+    background-color: yellow;
+    color:red;
+}
+/* 45 */
+
+h1:nth-child(22){
+    background-color: yellow;
+    color:red;
+}
+/* 39 */
+
+h1:nth-last-child(8){
+    background-color: yellow;
+}
+
+/* 7 */
+h1:nth-last-child(21)
+{
+    background-color: yellow;
+    color: red;
+}
+/* 10 */
+h1:nth-last-child(18)
+{
+    background-color: yellow;
+    color: red;
+}
+/* 17 */
+/* div:nth-of-type(13){
+    background-color: yellow;
+} */
+
+/* iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii */
+input[type="text"]{
+    background-color: red;
+}
+
+input:nth-of-type(1){
+    background-color: yellow;
+}
+
+
+
+/* ------------------------------------------------------- */
+/* section:nth-of-type(1) */
+/* div aakha type ni uunder first 1 hovu joiae jo be sections hoi to */
+section:first-of-type div:first-child h1:first-child{
+    background-color: yellow;
+    color:red;
+}
+
+section:nth-child(11) div:first-child  p:nth-child(1){
+    color: blue;
+}
+
+div:nth-last-of-type(3) h1:nth-child(2)
+{
+    background-color: pink;
+    color: gray;
+}
+
+
+nav:only-of-type h1:last-child{
+    background-color: green;
+    color: black;
+    }
+
+    div:nth-last-of-type(3) h1:first-child
+    {
+        background-color:pink;
+    }
+/* 31 */
+div:nth-child(14)  div:nth-child(3) h1:nth-of-type(4) {
+    background-color: yellow;
+    
+}
+/* 36 */
+ div:nth-child(14)  div:nth-child(3) h1:nth-of-type(10) {
+    background-color: yellow;
+    
+}
+
+ /* 25 */
+div:nth-child(14) span:first-child p:first-child {
+    background-color: yellow;
+    color: green;
+}
+/* 27 */
+div:nth-child(14) span:nth-of-type(2) p:nth-of-type(2){
+    background-color: yellow;
+    color: green;
+} 
+
+
+li:only-of-type section:nth-child(2) h1:only-child{
+background-color: rgb(35, 197, 218);
+color: rgb(8, 23, 8);}
+/* ---------OR---------- */
+/* li:only-of-type h1:nth-last-child(1){
+background-color: rgb(178, 28, 181);
+}  */
+
+
+/* 21 */
+/* div:nth-last-of-type(2) h1:nth-last-of-type()
+{
+    background-color: yellow;
+} */
+
+/* 12 */
+h1:nth-child(8)
+{
+    background-color: yellow;
+    color: blue;
+}
+
+
+
+/* h1:nth-last-child(11),
+h1:nth-last-child(13)
+{
+     background-color: orange;
+} */
+
+/* 
+div:nth-last-of-type(2)  p:last-child{
+    background-color: blueviolet;
+}
+h1[class=h1]{
+    background-color: aqua;
+}
+
+div:nth-last-of-type(2) div:first-child h1:last-child{
+    background-color: burlywood;
+} */
+
+
+
+/* not understood */
+
+/*
+
+h1[class=h1]{
+    background-color: aqua;
+}
+section:last-child  h1:last-child{
+    background-color: chartreuse;
+}
+
+ h1:nth-last-child(11),
+h1:nth-last-child(13)
+{
+     background-color: orange;
+} */

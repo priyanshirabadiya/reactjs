@@ -1,0 +1,16 @@
+// @use 'index.scss';
+@use 'varibles.scss' as *;
+
+/* Sass Variables */
+
+h1{
+    height: $h-200;
+    width: $w-200;
+    background-color: $bg2;
+}
+
+p{
+    height:$h-100;
+    width: $w-100;
+    background-color: $bg1;
+}

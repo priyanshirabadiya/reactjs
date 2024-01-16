@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Montserrat:ital,wght@0,100;1,100;1,300;1,700&family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+.container {
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* css boders */
+/* css border types
+
+    solid
+    dotted
+    dashed
+    doubel
+    hidden
+    none 
+    ridge
+    inset
+    outset
+    groove
+
+*/
+
+/* main{
+    height:flex;
+    width: 500px;
+    border: 5px solid black;
+
+} */
+
+.box-1 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    border: 5px dotted red;
+
+}
+
+.box-2 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 5px solid red;
+
+}
+
+.box-0 {
+
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px inset red;
+}
+
+.box-3 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px outset rgb(27, 28, 25);
+}
+
+.box-4 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px double red;
+}
+
+.box-5 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px ridge black;
+}
+
+.box-6 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px none red;
+}
+
+.box-7 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px dashed red;
+}
+
+.box-8 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 5px groove red;
+}
+
+.box-10 {
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    background-color: pink;
+    border: 15px hidden red;
+}
+
+.boxx-1 {
+    height: 300px;
+    width: 300px;
+    border: 5px solid red;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+    background-color: rgb(179, 179, 235);
+}
+
+.redius {
+    height: 500px;
+    width: 500px;
+    border: 2px solid blue;
+    border-radius: 100%;
+    border-radius: 40px;
+    border-radius: 10px 50px;
+    border-radius: 10px 50px 100px;
+    /* border-radius: 100px 100px 100px 500px ; */
+}
+
+/* 
+.redius{
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+
+    border:2px solid rgb(117, 116, 116);
+    outline: 5px solid rgb(10, 7, 10);
+    outline-offset: 10px;
+    margin:10px ;
+
+} */
+
+.line-height h1 {
+
+    /* font-size:100px; */
+    /* line-height: 100px; */
+    text-transform: none;
+    text-indent: 100px;
+    word-spacing: 5px;
+    text-shadow: 10px 10px 1px red;
+    white-space: pre;
+}
+
+
+.opacity {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(0, 255, 64);
+    opacity: 0.3;
+    color: blue;
+}
+
+/* css colors */
+
+.pre-1 {
+    background-color: red;
+    height: 50px;
+    width: 500px;
+    color: rgb(14, 14, 4);
+}
+
+.pre-2 {
+    height: 40px;
+    width: 500px;
+    background-color: rgba(255, 99, 71, 0.2);
+}
+
+.pre-3 {
+    height: 40px;
+    width: 500px;
+    background-color: rgba(255, 99, 71, 0.4);
+}
+
+.pre-4 {
+    height: 40px;
+    width: 500px;
+    background-color: rgba(255, 99, 71, 0.6);
+}
+
+.pre-4 {
+    height: 40px;
+    width: 500px;
+    background-color: rgba(255, 99, 71, 0.8);
+}
+
+body {
+    background-color: #fdfdfa;
+}
+
+/* background properties */
+.back-1 {
+    height: 100px;
+    width: 1000px;
+    background-color: aquamarine;
+}
+
+.back-2 {
+    height: 500px;
+    width: 1500px;
+    background-image: url(../images/paint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+
+.liner {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to top, rgb(129, 204, 247), rgb(219, 242, 242));
+}
+
+.binar {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to top left, red, yellow 80%);
+}
+
+.liner-grediant {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(to left, red, orange, green, yellow, blue, indigo, violet)
+}
+
+.liner-grediant-p {
+    height: 500px;
+    width: 100%;
+    background: repeating-radial-gradient(red, red 15%, white 10%, white 20%);
+
+}
+
+.pre-5 {
+    height: 500px;
+    width: 100%;
+    background: radial-gradient(circle farthest-corner at right, red, blue)
+}
+
+.pre-6 {
+    height: 500px;
+    width: 100%;
+    background: repeating-linear-gradient(0deg, yellow, yellow 10%, black 10%, black 20%)
+}

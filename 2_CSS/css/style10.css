@@ -1,0 +1,241 @@
+.mainbox-1{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content:flex-start;
+    align-items: center;
+
+}
+.box-1{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+
+}
+.box-2{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-3{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+/* ------------------------------------- */
+.mainbox-2{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content:flex-end; 
+    align-items: center;
+    
+}
+.box-4{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-5{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-6{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+    
+}
+/* -------------------------------------- */
+.mainbox-3{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content:center;
+    align-items: center;
+}
+.box-7{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-8{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-9{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+/* -------------------------------------------- */
+.mainbox-4{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.box-10{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+.box-11{
+    height: 20px;
+    width: 180px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-12{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+/* ------------------------------------------- */
+.mainbox-6{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.box-16{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+
+}
+.box-17{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-18{
+    height: 20px;
+    width: 180px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+/* ----------------------------------- */
+.mainbox-7{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    align-items: center;   
+}
+.box-19{
+    height: 20px;
+    width: 290px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-20{
+    height: 20px;
+    width: 290px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-21{
+    height: 20px;
+    width: 290px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+
+
+/* -------------------------------- */
+
+.mainbox-5{
+    height: 35px;
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box-13{
+    height: 20px;
+    width: 50px;
+    background-color:rgb(186, 245, 245) ;
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-14{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(78, 246, 246);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}
+.box-15{
+    height: 20px;
+    width: 50px;
+    background-color: rgb(186, 245, 245);
+    text-align: center;
+    margin: 2px;
+    border-radius: 3px;
+}

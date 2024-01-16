@@ -1,0 +1,81 @@
+.container{
+    height: 100%;
+    background-color: rgb(181, 241, 241);
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.one nav{
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    background-color: pink;
+}
+.content{
+    margin-left: 18.625rem;
+    position: relative;
+}
+.content .navu-bar{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(185, 131, 237);
+}
+/* ------------- */
+.col-lg-6{
+    /* background-color: rgb(220, 155, 91);
+    border: 1px solid black; */
+}
+.box-1{
+    height: 130px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: palegreen;
+}
+.sec .row{
+     background-color: aqua;
+}
+.third .row{
+    background-color: rgb(173, 111, 231);
+}
+.third .box-1{
+    height: 350px;
+    background-color: rgb(234, 247, 161);
+}
+
+.fourth .row{
+    background-color: rgb(231, 111, 189);
+}
+.fourth .box-1{
+    height: 130px;
+    background-color: rgb(161, 196, 247);
+}
+.five{
+    background-color: chartreuse;
+}
+.five .box-1{
+    height: 400px;
+    background-color: rgb(241, 197, 228);
+}
+.six{
+    background-color: chartreuse;
+}
+.six .box-1{
+    height: 400px;
+    background-color: rgb(241, 219, 197);
+}
+.seven .box-1{
+    height: 400px;
+
+}
+
+
+@media (max-width:1000px) {
+    .one nav{
+        display: none;
+    }
+    .content{
+        margin-left: 0;
+    }
+}
+

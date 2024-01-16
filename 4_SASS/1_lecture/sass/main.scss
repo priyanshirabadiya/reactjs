@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Martian+Mono&family=Montserrat:wght@300;400&family=PT+Serif&family=Poppins:ital,wght@0,300;0,400;1,400&family=Public+Sans:wght@100;400;500;600;700;800;900&family=Roboto:wght@300&display=swap');
+
+
+$padding-btn:10px 82px 10px 82px;
+$bg-2: rgb(222, 15, 156);
+$color: black;
+$bg: black;
+$font-size: 10px;
+$border-radius: 10px;
+$border-radius-btn: 50px;
+$height: 300px;
+$width: 250px;
+$border: 2px;
+$border-type: solid;
+$display: flex;
+$content: space-between;
+$content-2: space-around;
+$content-3: center;
+$margin-top: 150px;
+$padding-left-right: 0 100px 0 250px;
+$padding-2: 40px 25px 40px 25px;
+$align-item: center;
+$font-weight:500;
+$color-text:white;
+$flex-wara:wrap;
+
+.main-div {
+    width: 1000px;
+    display: $display;
+    justify-content: $content;
+    margin-top: $margin-top;
+    padding: $padding-left-right;
+    align-items: $content-3;
+    flex-wrap: $flex-wara;
+}
+
+.icon {
+    align-items: $align-item;
+    display: $display;
+    justify-content: $content-3;
+}
+
+h2 {
+    align-items: $align-item;
+    display: $display;
+    justify-content: $content-3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+p  {
+    align-items: $align-item;
+    display: $display;
+    justify-content: $content-3;
+    font-family: 'Poppins', sans-serif;
+    font-weight:$font-weight;
+    text-align: $align-item;
+}
+
+.box {
+    height: $height;
+    width: $width;
+    color: $color;
+    border: $border $border-type $color;
+    padding: $padding-2;
+    align-items: $align-item;
+    border-radius: $border-radius;
+}
+
+button{
+    padding: $padding-btn;
+    border-radius: $border-radius-btn;
+    background-color: $bg;
+    color:$color-text;
+
+}
+
+.box:nth-child(2) {
+    background-color: $bg-2;
+}
+
+.sec{
+    color: $color-text !important;
+}
+
+.sec button{
+    background-color:$color-text ;
+    color: $color;
+}
+
+@media (max-width:576px) {
+    .main-div {
+        padding: 0 !important;
+    }
+}

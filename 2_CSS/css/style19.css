@@ -1,0 +1,172 @@
+body{
+  margin: 0;
+}
+
+/* Css 2D Transform */
+
+.translate{
+  height: 200px;
+  width: 200px;
+  background-color:skyblue;
+  margin: 200px;
+  font-size: 20px;
+  color:black;
+}
+
+.translate:hover{
+  /* transform: translatex(100px); */
+  transform: scale(2);
+  /* transform:rotatex(180deg); */
+  /* transform: skew(45deg , 180deg); */
+  transition: 3s;
+}
+
+
+
+/* Css 3D Transform - Examples */
+
+.cover{
+  border: 2px solid darkmagenta;
+  height: 400px;
+  width: 400px;
+  margin:200px 300px;
+}
+
+.cover:hover .content{
+  transform: perspective(400px) rotate3d(240 , 240 , 240 , 241deg);
+  transition:3s;
+}
+
+.content{
+  height: 400px;
+  width: 400px;
+  background-color: darkblue;
+}
+
+
+/* Css Transition -*/
+
+.main-box{
+  padding:10px 0px;
+  border:1px solid black;
+  margin: 20px;
+  width: 1000px;
+}
+
+.transition{
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  background-color: red;
+}
+
+/* transition-timing-function ae touch kyra pchi jetli secound aapi hoi tene var khmin pchi css aapse*/
+
+.transition:hover{
+  transform: translate(800px);
+  /* transition-duration:10s; */
+  /* transition-delay: 2s; */
+  transition-property: width;
+  /* transition-timing-function:linear; */
+  /* transition: 2s 5s linear; */
+  /* transition: 3s; */
+}
+
+/* Css Filter */
+
+  /* filter:blur(1px); */
+  /* filter:brightness(50%); */
+  /* filter:contrast(100%); */
+  /* filter:grayscale(100%); */
+  /* filter:hue-rotate(360deg); */
+  /* filter:invert(0%); */
+  /* filter:saturate(0%); */
+  /* filter:opacity(1); */
+  /* filter: sepia(1); */
+  /* filter:none; */
+  /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+
+
+.filter img{
+  /* filter: blur(5px); */
+  /* filter: brightness(40%); */
+  /* filter: contrast(20%); */
+  /* filter: grayscale(); */
+  /* filter:grayscale(80%); */
+  /* filter:hue-rotate(180deg); */
+  /* filter:invert(100%); */
+  /* filter:saturate(10%); */
+  /* filter:opacity(0.5); */
+  /* filter: sepia(1); */
+  /* filter:none; */
+  filter: drop-shadow(20px 20px 10px pink);
+}
+.pokman{
+  filter: drop-shadow(15px 15px 10px yellow);
+}
+
+/* css animation */
+.rotate{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  margin: 200px;
+  animation-name:rotate;
+  animation-duration: 1s;
+  /* animation-delay: 1s; */
+  /* animation-timing-function: linear; */
+  animation-play-state:running;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+  from{
+      transform: rotateX(180deg);
+  }
+  to{
+      transform: rotateY(360deg);
+  }
+} 
+
+.scale{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  margin: 100px;
+  animation-name: move;
+  animation-duration: 3s;
+  /* animation-delay: 2s; */
+  transition-timing-function: linear;
+  animation-direction: alternate;
+  /* animation-fill-mode: backwards; */
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+/* @keyframes move{
+  0%{
+      transform: translateX(100px);
+  }
+  50%{
+      transform: translateX(500px);
+      background-color: red;
+  }
+  100%{
+      transform:translatex(900px);
+      background-color: green;
+  }
+}  */
+@keyframes move {
+  from{
+    transform: translate(100px);
+  }
+  to{
+    transform: translate(680px);
+  }
+} 

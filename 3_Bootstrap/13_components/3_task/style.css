@@ -1,0 +1,23 @@
+body{
+    background-color: aliceblue;
+
+}
+
+.col-4{
+    margin-top: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 25%;
+    border-radius: 20px;
+    padding: 10px 30px 1px 30px;
+
+}
+h5{
+    position: absolute;
+    margin-top: 110px !important;
+}
+button{
+    border: 0;
+    background-color: #6437e2 !important;
+    width: 100% !important;
+}

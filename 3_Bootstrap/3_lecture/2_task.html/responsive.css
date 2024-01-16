@@ -1,0 +1,21 @@
+@media (max-width:1000px) {
+    .main-2 {
+        position: relative;
+        margin-top: 20px;
+        height: 700px;
+    }
+
+    .col-12 {
+        width: 1000px;
+    }
+
+    .about-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .last-con {
+        position: relative;
+        height: 1800px;
+    }
+}

@@ -1,0 +1,191 @@
+@media(max-width:1000px) {
+    .nav {
+        width: 1500px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .green-button button {
+        display: none;
+    }
+
+    .green-button .bar {
+        margin-top: 20px;
+        visibility: visible;
+    }
+
+    .container {
+        margin-top: 80px;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        text-align: center;
+    }
+
+    .first-row {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #man-body-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .viedotag video {
+        height: 500px;
+        width: 500px;
+    }
+
+    .first-box {
+        max-width: 1000px;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
+    }
+
+    .first-box h1 {
+        text-align: center;
+    }
+
+    .second-box {
+        max-width: 1000px;
+        margin: 50px 10px -20px 30px;
+        text-align: center;
+    }
+
+    .second-box h1 {
+        text-align: center;
+    }
+
+    .sec-part {
+        display: block;
+    }
+
+    #man-body-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #second-box-2nd {
+        margin-top: 0px;
+    }
+
+    .number-con {
+        margin-top: -80px;
+    }
+
+    .parent-number {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .f-number {
+        margin-top: 50px;
+    }
+
+    .two-main-div {
+        margin-left: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .three-images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fi-image {
+        margin-top: 20px;
+        margin-right: 0px;
+        text-align: center;
+    }
+
+    .purches-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-purches-box {
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        align-items: center;
+    }
+
+    .pur-1 {
+        margin-top: 20px;
+        margin-right: 0px;
+    }
+
+    /* ----- */
+    .gallery-point {
+        margin-left: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fiimage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fiimage img {
+        margin-bottom: 20px;
+        width: 390px;
+        height: 280px;
+        margin-right: 0px;
+    }
+
+    .foot-1 {
+        max-width: 100%;
+        margin-left: 45px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .foot-classes {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .class-1 {
+        margin-top: 30px;
+    }
+
+    .class-2 {
+        margin-top: 30px;
+    }
+
+    .class-3 {
+        margin-top: 30px;
+    }
+
+    .long-img {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

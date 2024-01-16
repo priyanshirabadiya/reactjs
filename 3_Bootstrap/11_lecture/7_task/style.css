@@ -1,0 +1,46 @@
+main{
+    margin: 10rem;
+    width: 20vw;
+}
+
+.btn{
+    height: 35px;
+    width: 35px;
+}
+.f-bt-1{
+    position: relative;
+}
+.f-bt-1 button{
+    position: absolute;
+    z-index: 5;
+    background-color: gainsboro;
+}
+.f-bt-1 i{
+    position: absolute;
+    margin-right: 5px;
+    margin-left: -5px;
+}
+
+.f-bt-1 button:hover{
+    position: absolute;
+    z-index: 5;
+    background-color: gainsboro;
+    cursor: context-menu;
+}
+.class-2 .f-bt-1 button{
+    position: absolute;
+    padding: 20px;
+}
+.class-2 .f-bt-1 button i{
+    margin-left: -8px;
+}
+
+.class-3 .f-bt-1 button{
+    position: absolute;
+    padding: 21px;
+}
+.class-3 .f-bt-1 button i{
+    margin-left: -9px;
+}
+
+

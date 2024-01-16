@@ -1,0 +1,59 @@
+/* --------------- */
+/* grid-template-columns: repeat(4,180px); */
+/* grid-template-columns: 200px 1fr 1fr */
+.grid-row-line {
+    margin: auto;
+    display: grid;
+    width: 600px;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto 150px 150px ;
+    gap: 15px;
+    background-color: rgb(73, 72, 72);
+    padding: 15px;
+  
+  }
+  .grid-row-line div {
+    background-color:lin;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    border:5px solid black;
+    background-color: blueviolet;
+  }
+  .item1 {
+    background:linear-gradient(to top left,blueviolet,purple);
+    grid-column-start: 1;
+    grid-column-end:6;
+  }
+  .item2 {
+    background:linear-gradient(to top left,rgb(194, 142, 242),rgb(160, 63, 160));
+    grid-row-start: 2;
+    grid-row-end:4;
+  }
+  .item3 {
+    background:linear-gradient(to top left,rgb(224, 203, 244),rgb(196, 111, 196));
+    grid-column-start: 2;
+    grid-column-end:6;
+  }
+  .item4 {
+    background:linear-gradient(to top left,rgb(224, 203, 244),rgb(196, 111, 196));
+    grid-column-start:2;
+    grid-column-end:4;
+  }
+
+  .item5 {
+    background:linear-gradient(to top left,rgb(224, 203, 244),rgb(196, 111, 196));
+    grid-column-start: 4;
+    grid-column-end:6;
+  }
+.item6{
+  background:linear-gradient(to top left,blueviolet,purple);
+
+  grid-column-start: 1;
+  grid-column-end:6;
+}
+
+
+
+
+

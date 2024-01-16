@@ -1,0 +1,164 @@
+
+.col-lg-12{
+    height: 400px;
+    background-color: gray;
+    display: flex;
+    justify-content:center;
+    position: relative;
+    color: rgb(222, 220, 220);
+}
+p{
+    color: gray;
+}
+.first-row{
+    display: flex;
+    justify-content:space-evenly;
+}
+.container{
+    position: relative;
+    top: 180px; 
+}
+.sec-row{
+    margin-left: 210px;
+}
+.sec-row button{
+    background-color: rgb(70, 115, 249);
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px ;
+}
+.cl-2 h1{
+    color: white;
+}
+.cl-2{
+    max-width: 910px;
+}
+.cl-2 p{
+    color: white;
+}
+.cl-3{
+    margin-left: -50px;
+}
+.third-row{
+    margin-top: 45px;
+    margin-left: 600px;
+}
+.third-row span{
+    color: gray;
+}
+.third-row .sm-1{
+    border-top: 3px solid white;
+    border-radius: 1px;
+    color: gray;
+}
+.sm{
+    border-top: 3px solid rgb(185, 183, 183);
+    border-radius: 1px;
+}
+.sm-2{
+    border-top: 3px solid rgb(185, 183, 183);
+    border-radius: 1px;
+}
+/* --second container */
+.s-2 .container{
+    top: 50px;
+    max-width:1000px;
+}
+.main-sec-row{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.self-f1-box{
+    max-width: 300px;
+    text-align: center;
+    align-items: center;
+}
+.self-f1-box h1{
+    color: gray;
+}
+.blank-div{
+    max-width:300px ;
+    display: flex;
+    justify-content: center;
+}
+.blank{
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 50px;
+}
+.container .self-f1-box button{
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5px 0px 5px 8px; 
+}
+.new-20 .container{
+    margin-top: -50px;
+    max-width: 900px;
+}
+.new-2 .container{
+    max-width: 900px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.texts{
+    width: 500px;
+}
+.d-1{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(240, 238, 238);
+    margin-left: 20px;
+    text-align: center;
+    color: gray;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+/* -------------- */
+.third .container{
+    margin-top: 100px;
+    width: 900px;
+}
+.texts h1{
+    color: #808080;
+}
+.d-2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(240, 238, 238);
+    margin-right: 20px;
+    text-align: center;
+    color: gray;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.new-21 .container{
+    margin-top: 100px;
+    width: 900px;
+}
+.l-hr .container{
+    max-width:  900px;
+    margin-top: 100px;
+}
+.foot-con .container{
+    margin-top: 50px;
+    max-width: 900px;
+}
+.foot-2 p{
+    color: blue;
+    margin-bottom: 50px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+

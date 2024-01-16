@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="items">
+            <div class="display-3">
+                Bootstrap Payment Forms
+            </div>
+        </div>
+        <form>
+            <fieldset class="border">
+                <div class="main-box">
+                    <div class="f-1-div">
+                        <div class="input-group">
+                            <button class="btn btn-primary" type="button" style="border-radius: 5px; border: 0px;"
+                                id="button-addon2">
+                                <i class="fa-solid fa-credit-card" style="color: #aaadb1;"></i>
+                                Creadit card</button>
+                            <button class="btn                          btn-outline-secondary"
+                                style="background-color:rgb(250, 248, 248); border: 0px; " type="button"
+                                id="button-addon2">
+                                <i class="fa-brands fa-paypal" style="color: #57595c;"></i>
+                                Paypal</button>
+                            <button class="btn   
+                                btn-outline-secondary" style="background-color:rgb(250, 248, 248); border: 0px;"
+                                type="button" id="button-addon2">
+                                <i class="fa-solid fa-mobile" style="color: #8d8e91;"></i>
+                                Net banking</button>
+                        </div>
+                    </div>
+                    <label for="form" style="margin: 10px 0px 10px 0px;"><b>Card owner</b></label>
+                    <input class="form-control" type="text" placeholder="Card owner name" id="from"
+                        aria-label="default input example">
+
+                    <label for="form" style="margin: 10px 0px 10px 0px;"><b>Card Number</b></label>
+
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Valid card number" aria-label="card number"
+                            aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fa-brands fa-cc-visa fa-lg" style="color: #989ba0;"></i>
+                            <i class="fa-brands fa-linkedin fa-lg" style="color:#989ba0;"></i>
+                            <i class="fa-solid fa-passport fa-lg" style="color:#989ba0;"></i>
+                        </span>
+                    </div>
+                    <div class="label-div">
+                        <label><b>Expairation Date</b></label>
+                        <label>
+                            <b>CVV <i class="fa-solid fa-circle-question fa-sm"></i></b>
+                        </label>
+                    </div>
+                    <div class="next-div-big">
+                        <div class="input-group">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                MM</button>
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                YY</button>
+                        </div>
+                        <div class="sec">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"
+                                style="padding: 17px;">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="last-div">
+                        <hr>
+                        <button type="submit" class="btn btn-primary">Conform Payment</button>
+                    </div>
+                </div>
+            </div>
+    </fieldset>
+    </form>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>

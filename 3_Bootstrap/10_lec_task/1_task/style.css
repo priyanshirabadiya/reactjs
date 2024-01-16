@@ -1,0 +1,23 @@
+.h-100 {
+    height: 5rem !important;
+}
+
+.font {
+    font-size: 3rem !important;
+}
+
+.display-6 {
+    font-size: 2rem;
+}
+
+.offcanvas .offcanvas-header h5 {
+    font-size: 2rem;
+}
+
+.nav-item a {
+    font-size: 1.5rem;
+}
+
+i {
+    cursor: pointer;
+}

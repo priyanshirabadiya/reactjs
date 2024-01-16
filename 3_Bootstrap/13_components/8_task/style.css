@@ -1,0 +1,33 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    margin-top: 100px;
+    background-color: white;
+    height: 100%;
+    width: 400px;
+    padding:20px 20px 30px 20px;
+}
+input{
+    padding: 10px !important;
+}
+input[type='text']
+{
+    border: 2px solid rgb(106, 220, 106) !important;
+}
+
+input[type='text']::placeholder{
+    color: rgb(81, 231, 81) !important;
+}
+
+input[type='search']
+{
+    border: 2px solid rgb(183, 3, 3) !important;
+}
+
+input[type='search']::placeholder{
+    color: rgb(155, 1, 1) !important;
+}

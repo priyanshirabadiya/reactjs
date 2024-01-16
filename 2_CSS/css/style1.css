@@ -1,0 +1,163 @@
+ /* External style ni uundeer import rule tyare j chalse jyareje like thala p ne comment aapiye tyarete import rule ma je css aapeli che like style-2 to aeni thala p vali css leshe nkr kai jo import rule nai aapyo hoi to default black leshe
+ 2->jo import direct style ma aapvo hoi to 
+ @import "path";
+ 3->jo import style ni under j aek url ma aapvo hoi to @import url(path..);
+ 
+ */
+ 
+ 
+ @import "style2.css"; 
+/* .thala  p{
+     color: brown;
+     background-color: bisque;
+     border: 2px solid black;
+ } */
+
+ h2 {
+     text-align: center;
+     text-decoration: line-through;
+     color: blue;
+ }
+
+ pre {
+     color: brown;
+     background-color: yellowgreen;
+     border: 10px solid black;
+     text-align: center;
+ }
+
+ /*----------------inheritance----------------------------*/
+ .box-1 {
+
+     color: brown;
+ }
+
+ .box-2 {
+     color: aqua;
+ }
+
+ .box-2 {
+     color: rgb(238, 21, 21);
+ }
+
+ .box-3 {
+     color: rgb(19, 14, 125);
+
+ }
+
+ .box-1 {
+     color: rgb(47, 255, 0);
+ }
+
+ /*------------------inheritans--------------*/
+ .heading-1 {
+     color: rgb(255, 0, 38);
+
+ }
+
+ .text .element-2 .heading-1 {
+     color: rgb(0, 255, 187);
+ }
+
+ .text {
+     color: palevioletred;
+ }
+
+ .element-2 .heading-1 .text {
+     color: rgb(77, 122, 9);
+ }
+
+ .heading-2 .element-3 {
+
+     height: 50px;
+     width: 500px;
+     background-color: yellowgreen;
+     text-decoration: underline;
+
+ }
+
+ /* sauthi pahela prent class prefer krse */
+ .text .element-3 .heading-2 {
+     color: blueviolet;
+ }
+
+
+ .element-3 .heading-2 {
+     color: rgb(255, 0, 0);
+ }
+
+ /*--------------------------------------------------------------------------------*/
+
+
+ .text {
+     color: brown;
+ }
+
+ .text {
+     color: blue;
+ }
+
+ /*-----------------important--------------------------------------------------------*/
+
+
+ .heading-2 {
+     color: green !important;
+ }
+
+ .para-6 {
+     color: rgb(227, 136, 16) !important;
+ }
+
+ .para-6 {
+     color: rgb(48, 16, 227) !important;
+ }
+
+ /*--------input type------------*/
+
+ /* padding under no contain vadharse */
+
+ input[type=button] {
+     padding: 20px 15px;
+     background-color: rgba(red, green, blue, yellowgreen);
+     border-radius: 3px;
+     margin-top: 150px;
+     width: 150px;
+ }
+
+ button {
+     font-size: 60px;
+     background-color: rgb(229, 126, 17);
+     padding: 10px 20px;
+     border-radius: 3px;
+ }
+ input[type=button]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+ input[type="text"] {
+     background-color: rgb(255, 0, 247);
+     padding: 25px 15px;
+     /* border: 20px solid black; */
+     border-radius: 20px;
+ }
+
+ .container .neha-1
+ {
+    width: 100px;
+    height: 100px;
+    background-color: aqua !important;
+ }
+
+ .container .neha-1
+ {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+ }

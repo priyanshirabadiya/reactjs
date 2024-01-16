@@ -1,0 +1,218 @@
+p {
+    color: rgb(149, 146, 146);
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    color: black;
+}
+
+.row {
+    position: relative;
+    height: 40px;
+    padding-right: 0px;
+    /* --bs-gutter-x: 0; */
+
+}
+
+#col4 {
+    margin-top: 15px;
+    text-align: start;
+}
+
+#col3 {
+    text-align: center;
+}
+
+#col2 {
+    margin-top: 10px;
+    text-align: end;
+}
+
+#col2 button {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+}
+
+/* ------------ */
+
+.main-1 .container {
+    position: relative;
+}
+
+.main-1 .col-12 {
+    height: 400px;
+    max-width: 100%;
+    background-color: rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.col-12 h1 {
+    color: white;
+}
+.last-con .col-12 h1{
+    color: black;
+}
+.con-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    max-width: 500px;
+}
+
+.con-box p {
+    color: rgb(203, 201, 201);
+}
+
+.con-box h5 {
+    color: white;
+}
+
+/* --------------- */
+.main-2 {
+    position: relative;
+    margin-top: 20px;
+    height: 300px;
+}
+
+.main-2 .container {
+    position: relative;
+}
+
+.col-lg-6 .p-3 {
+    max-width: 620px;
+    height: 250px;
+    background-color: white;
+    border: 0px solid gray;
+    box-shadow: 0 0 3px rgb(163, 160, 160);
+    display: flex;
+}
+
+.p-3 {
+    padding: 0rem !important;
+}
+
+.box-ed {
+    height: 230px;
+    width: 200px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    --bs-gutter-x: 0;
+}
+
+.textual-div {
+    max-width: 425px;
+    padding: 10px;
+}
+
+.textual-div p {
+    color: blue;
+}
+
+.textual-div h1 {
+    color: black;
+    font-size: 20px;
+    letter-spacing: 0px;
+}
+
+/* ---------------------------- */
+.last-con {
+    position: relative;
+    height: 1500px;
+}
+.last-con .container {
+    position: relative;
+    max-width: 1200px;
+}
+
+.last-divs {
+    display: flex;
+}
+
+.col-lg-8 h1 {
+    color: black;
+}
+
+.col-lg-8 {
+    height: 1490px;
+    width: 700px;
+    /* background-color: aqua; */
+    margin-right: 10px;
+}
+
+.col-lg-2 {
+    height: 100px;
+    width: 400px;
+    /* background-color: rgb(255, 0, 43); */
+}
+
+.h1-p {
+    font-size: 13px;
+}
+
+.last-con span {
+    color: blue;
+}
+
+.last-con p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(84, 82, 82);
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    padding: 5px 7px 5px 7px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+/* ----- */
+.about-main h1 {
+    font-size: 23px;
+    color: black;
+}
+.about-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(249, 248, 248);
+}
+.lines{
+    margin-top: 10px;
+}
+.lines p{
+    color: blue;
+    line-height: 1px;
+    font-size: 12px;
+}
+.lastt .footer{
+    width: 100%;
+    height:130px;
+    margin-top: 50px;
+    background-color: rgb(249, 248, 248);
+    text-align: center;
+}
+.lastt span{
+    color: blue;
+}
+
+

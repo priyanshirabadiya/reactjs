@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>html</title>
+    </head>
+    <body>
+        <fieldset>
+        <h1>sign up</h1>
+
+        <label for="name">Full name:</label><br>
+        <input  type="text" placeholder="firstname" list="list" name="fullnames">
+        <datalist id="list">
+            <option value="priyanshi"></option>
+            <option value="krishna"></option>
+            <option value="pravinbhai"></option>
+            <option value="manjune"></option>
+        </datalist><br><br>
+        <label for="email">Email</label><br>
+        <input type="text" placeholder="gmail id"><br><br>
+
+        <label for="password">Password</label><br>
+        <input type="password" placeholder="8 characters"><br><br>
+
+        <label for="password">Conform password</label><br>
+        <input type="password" placeholder="8 characters"><br><br>
+
+        <label for="date of birth">Date of birth</label><br>
+        <input type="date"><br><br>
+        
+        <label for="gender">Gender</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">female</label>
+        <input type="radio" id="other" name="gender">
+        <label for="other">Other</label><br><br>
+
+        <label for="photo">Insert your photo:</label><br>
+        <input type="file"><br><br>
+
+        <label for="photo">Insert your resume:</label><br>
+        <input type="file"><br><br>
+
+        <label for="security">Security Questions:</label><br>
+        <input  type="text" list="mlist" name="cheak" value="">
+        <datalist id="mlist">
+            <option value="select" selected></option>
+            <option value="allow notification"></option>
+            <option value="help to other setting"></option>
+            <option value="block"></option>
+        </datalist><br>
+        <textarea cols="21" role="1000"></textarea><br><br>
+
+        <input type="checkbox">
+        <label for="conditions">I am agree with all terms and conditions</label><br>
+        <button type="submit" class="registerbtn">Register</button>
+        <!-- <input type=""> -->
+    </fieldset>
+    </body>
+</html>

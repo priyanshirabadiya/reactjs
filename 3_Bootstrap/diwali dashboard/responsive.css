@@ -1,0 +1,50 @@
+@media (max-width:1000px) {
+    .one nav {
+        display: none;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-line {
+        display: none;
+    }
+
+    .parent {
+        width: 100%;
+        position: absolute;
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+    }
+   
+}
+@media (max-width:330px) 
+{
+    .first-para-box{
+        height: 150px;
+    }
+    .first-para-box .difff{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .regular-line .re-4{
+        display: none;
+    }
+    .seven{
+        display: none;
+    }
+}
+@media (max-width:200px) 
+{
+    .lines-div{
+        display: none;
+    }
+}
+
+
+

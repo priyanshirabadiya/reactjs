@@ -1,0 +1,102 @@
+@import 'variable.scss';
+
+.box-1 {
+    background-color: $color4;
+    height: $h-1;
+    width: $w-1
+}
+
+header {
+    background-color: $bg2;
+
+    nav {
+        display: $flex;
+        justify-content: $h-between;
+        align-items: $h-center;
+
+        .nav-item ul {
+            display: $flex;
+            list-style-type: none;
+
+            li {
+                margin-right: 30px;
+
+                a {
+                    text-decoration: none;
+                    font-size: 30px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+/* Sass @mixin Method */
+
+// @mixin box($color) {
+//     height: $h-1;
+//     width: $w-1;
+//     background-color: $color;
+//     @content;
+// }
+
+// .maindiv {
+//     @include box($color: blue);
+// }
+
+// .maindiv-2 {
+//     @include box($color: orange) {
+//         border: 2px solid black;
+//     }
+// }
+
+@mixin var($color)
+{
+    height: $h-2;
+    width: $w-2;
+    background-color: $color; @content;
+}
+.maindiv {
+    @include var($color:red);
+}
+
+.maindiv-2 {
+    @include var($color:gray)
+    {
+        border: 5px solid black;
+    }
+}
+
+
+
+
+/* Sass @Extend Method */
+
+
+// %shared-style {
+//     display: $flex;
+//     justify-content: $h-evenly;
+//     align-items: $v-end;
+// }
+
+// .maindiv {
+//     @extend %shared-style;
+// }
+
+// .maindiv-2 {
+//     @extend %shared-style;
+// }
+
+%extend-s {
+    display: $flex;
+    justify-content: $h-evenly;
+    align-items: $v-end;
+}
+
+.maindiv {
+    @extend %extend-s;
+}
+
+.maindiv-2 {
+    @extend %extend-s;
+}

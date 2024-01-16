@@ -1,0 +1,143 @@
+*{
+    box-sizing:border-box;
+}
+
+
+body{
+    margin: 100px;
+    padding: 0;
+
+} 
+
+
+.margin-1{
+    height: 200px;
+    width:200px;
+    background-color: rgb(218, 118, 218);
+    margin-bottom:50px;
+    margin:0px auto 20px;
+    padding: 50px 20px;
+
+}
+
+.margin-2{
+    height: 200px;
+    width:200px;
+    background-color: blue;
+    margin: 10px 70px 100px 20px; 
+    /* padding: 50px; */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+
+/* CSS BOX MODEL */
+
+
+
+
+/* CSS MARGIN */
+
+
+
+
+/* box-sizing properties */
+
+/* padding box ni bar leshe and border pn 300px box ni bar leshe 300px na box ne kai sali nai kre */
+.content-box{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(229, 255, 0);
+    padding: 20px;
+    margin: 10px;
+    border:10px solid black;
+    box-sizing: content-box;
+}
+
+.border-box{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(65, 190, 231);
+    padding: 20px;
+    border:10px solid black;
+    box-sizing:border-box;
+    margin: 10px;
+}
+
+.preya{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(65, 190, 231);
+
+}
+
+
+
+/* css width / height */
+
+.box{
+    max-height: 500px;
+   width:1000px;
+    background-color: rgb(253, 169, 248);
+}
+
+/* listing tag and table tag in css */
+
+
+/* listing tag */
+
+
+/*
+    list-style-type
+    list-style-position
+    list-style-image
+*/
+
+ol {
+    /* list-style-type: armenian; */
+    /* list-style-type: decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: georgian; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: lower-greek;     */
+    /* list-style-type: lower-latin; */
+    /* list-style-type: lower-roman; */
+    /* list-style-type: none; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: upper-latin;    */
+    /* list-style-type: upper-roman; */
+    /* list-style-image: url("../images/arrow.png"); */
+    /* list-style-position: inside; */
+    /* padding: 0; */
+}
+
+/* unorder list */
+
+ul{
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    /* list-style-type: none; */
+}
+
+/* css box-shadow */
+
+.shadow{
+    height:300px ;
+    width:200px;
+    background-color: orange;
+    margin: 200px;
+    /* filter: drop-shadow(-0.8rem -0.8rem 0.8rem 0.8rem rgb(6, 0, 128));
+    box-shadow: 0px 0px 10px 5px rgb(216, 41, 70); */
+    box-shadow: 10px 10px 10px black;
+
+}
+
+.photo{
+
+    margin: 200px;
+    filter: drop-shadow(-10px -10px 10px gray);
+
+}

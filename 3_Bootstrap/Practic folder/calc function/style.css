@@ -1,0 +1,51 @@
+
+:root{
+    --font-size:0.2em;
+    --width:100vw;
+}
+.g1
+{
+    height: 200px;
+    background-color: orangered;
+    width: calc(var(--width) - 120px + 100px);
+    /* width: 150vw; */
+    margin: auto;
+}
+.g2
+{
+    height: 200px;
+    background-color: orangered;
+    width: calc(var(--width) - 600px);
+    /* width: 150vw; */
+    margin: auto;
+    margin-top: 2rem;
+}
+.col-6{
+    margin-top: 20px;
+    background-color: rgb(184, 235, 235);
+    border: 2px solid black;
+    height: 500px;
+}
+.f1
+{
+    padding: 40px;
+    margin: 20px;
+    width:calc(100vw-60vw);
+    background-color: brown;
+    font-size: calc(1vw + var(--font-size));
+    /* font-size: 5vh; */
+    line-height:2em;
+}
+.f2
+{
+    padding: 40px;
+    margin: 20px;
+    width:calc(100vw-60vw);
+    background-color: brown;
+    /* font-size: calc(1vw + var(--font-size)); */
+    font-size: 4vh;
+    line-height:2em;
+}
+
+
+

@@ -1,0 +1,179 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: salmon;
+}
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 60px;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: 15px;
+    height: 70px;
+    line-height: 70px;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    color: pink;
+    list-style: none;
+    font-size: 70px;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -280px;
+    }
+}
+li{
+    /* height: 150px; */
+/* }
+
+.dynamic-txts li span {
+    height: 150px !important;
+    position: relative;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 90px;
+    width: 100%;
+    background: salmon;
+    border-left: 2px solid pink;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 10px -35px 10px 35px;
+    } 
+} */
+
+
+
+
+
+/* ---------------------------------------------- */
+
+
+ .dynamic-text
+{
+    overflow: hidden;
+    max-height: 100px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+ .dynamic-text li
+{
+    animation:to-top 15s steps(3) infinite alternate;
+}
+
+@keyframes to-top  {
+    0%
+    {
+        transform: translateY(100%);
+    }
+
+    100%
+    {
+        transform: translateY(-200%);
+    }
+    
+}
+
+ .dynamic-text li h1
+{
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    font-size: 5.7rem;
+    overflow: hidden;
+    animation:  text-width 2.5s steps(8) infinite alternate;
+}
+
+@keyframes text-width {
+    0%
+    {
+        width: 0%;
+    }
+
+    50%
+    {
+        width:110%;
+    }
+
+    75%
+    {
+        width:110%;
+    }
+
+    100%
+    {
+        width:110%;
+    }
+}
+.dynamic-text li h1::after
+{
+    position: absolute;
+    top: 0%;
+    right:0%;
+    bottom: 0%;
+    content: "";
+    opacity: 0;
+    display: block;
+    margin: 0px;
+    width:15px;
+    padding: 0px;
+    background-color: #000;
+    animation: blinak-arrow 0.3s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes blinak-arrow {
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+}
+
+/*
+    CSS TRANSFORM PROPERTIES
+    CSS TARNSITION PROPERTIES
+    CSS FILTER PROPERTIES
+    CSS ANIMATIONS
+*/
+
+/* Css 2D Transform - Examples */
+
+
+/* scale -> motu  krese */
+/* rotate ->gol fervse aena mate transition secound(s) ma nakhvi padse // chopdi ni jem banne type fervse*/
+/* transform -> side thi ane translate margin type lavse*/
+/* skew ->gol 3D type fervse   */
+
+.translate{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    margin: 200px;
+    font-size: 20px;
+    color:white;
+    transform: translate(100px 200px);
+    /* transform: scale(3); */
+    /* transform: rotate(2turn); */
+    /* transform: skew(179deg , 180deg); */
+    transition: 2s;
+}
+
+/* translate aema x ae uuper thi ane y ae side mathi height aapse */
+
+/* translate scale ma zoom x axes krse ane zoom out y-axes krse 1 up for zoom and in point position to small krva */
+
+/* skew ae kaju katri jevu banavse */
+
+/* rotate - turn , deg */
+/* turn ma round fervse  */
+/* rotate x uundhu ferv se  */
+/* rorate y chopdi ni jem ferav se */
+
+/* Y ma pachal photo add krva mate  */
+
+
+/* rotate jo turn ma hse to chopdi ni jem fervse */
+
+.translate:hover
+{
+    /* transform: translateY(200px); */
+    /* transform: scale(3); */
+    /* transform: rotateY(180deg); */
+    /* transform: rotate(2turn); */
+    /* transform: rotate(100deg , 100deg); */
+    /* transform: skew(45deg , 180deg); */
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+/* Css 3D Transform - Examples */
+
+ .cover{
+    border: 2px solid red;
+    height: 400px;
+    width: 400px;
+    margin:200px 300px;
+}
+
+
+.content{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} 
+
+.cover:hover .content{
+  transform: perspective(100px) rotate3d(360 , 240 , 360 , 360deg);
+  transition: 2s;
+}
+
+
+
+
+/* ----------------------------------------------- */
+
+/* Css Transition - Examples */
+.main-box{
+    padding:10px 0px;
+    border:1px solid black;
+    margin: 20px;
+    width: 1000px;
+}
+.transition{
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    background-color: red;
+}
+.transition:hover{
+    transform: translate(900px);
+    transition-duration:3s; 
+    /* transition-timing-function:linear; */
+    /* transition-timing-function: 5s 2s linear; */
+}
+
+/*******************************************************/
+
+
+/* Css Filter */
+
+    /* filter:blur(1px); */
+    /* filter:brightness(50%); */
+    /* filter:contrast(100%); */
+    /* filter:grayscale(100%); */
+    /* filter:hue-rotate(360deg); */
+    /* filter:invert(0%); */
+    /* filter:saturate(0%); */
+    /* filter:opacity(1); */
+    /* filter: sepia(1); */
+    /* filter:none; */
+    /* filter:drop-shadow(10px -20px 1px rgb(70, 15, 62))*/
+
+
+/* Css Filter - Exampels */
+
+.filter img{
+  filter: blur(1px);
+  filter: brightness(50%) ;
+  filter: contrast(100%) ;
+  filter: grayscale(100%) ;
+  filter: hue-rotate(360deg);
+  filter: invert(10%);
+  filter: saturate(10%);
+  filter: opacity(0.5);
+  filter: sepia(0.5);
+  filter: none;
+  filter: drop-shadow(20px 20px 5px blue);
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+.modal-header{
+    height: 3lh;
+    background-color:#46aeef;
+}
+.modal-header{
+   border-radius: 0;
+}
+
+.modal-content{
+    border-radius: 0;
+}
+
+.p1{
+    padding:9px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 5px 1px gainsboro;
+
+}
+
+.box-1{
+    padding:9px;
+    border: 0;
+    border-radius: 0;
+    padding-left:40px !important;
+    padding-right:40px !important;
+    box-shadow: 0 0 5px 1px gainsboro;
+    color: white;
+    background-color: #46aeef;
+    font-weight: lighter !important;
+}
+
+.p2{
+    padding:14px;
+    border: 0;
+    border-radius: 0;
+    padding-left:40px !important;
+    padding-right:40px !important;
+    border: 3px solid #46aeef;
+    box-shadow: 0 0 5px 1px gainsboro;
+}
+
+.modal-header {
+    box-shadow: 0px 10px 10px -15px #111;    
+  }
+

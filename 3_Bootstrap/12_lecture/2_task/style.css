@@ -1,0 +1,41 @@
+iframe {
+    width: 30vw;
+}
+
+.modal-dialog {
+    width: 30vw;
+}
+
+.modal-content {
+    padding: 0;
+    margin: 0;
+}
+
+.modal-header {
+    padding: 0;
+    border: 0;
+}
+
+.cl-1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 8px 2px gainsboro;
+    position: relative;
+}
+
+.cl-1 i {
+    position: absolute;
+}
+
+.modal-footer button {
+    border: 3px solid rgb(51, 51, 211);
+    box-shadow: 0 0 5px 2px gainsboro;
+}
+
+.modal-footer {
+    border: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

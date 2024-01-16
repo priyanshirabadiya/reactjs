@@ -1,0 +1,14 @@
+@font-face{
+    font-family: priyanshi;
+    src: url('../font/PlaypenSans-ExtraLight.ttf');
+    }
+    
+    body{
+        height: 100vh;
+        width: 200vw;
+      background-image: linear-gradient(to bottom, #e5c4c4, #ffbea5, #ffc375, #f4d440, #b3eb12);
+      background-repeat: no-repeat;
+      background-color: #70CF9B;
+    font-family: priyanshi;
+    
+      }

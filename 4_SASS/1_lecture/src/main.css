@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Martian+Mono&family=Montserrat:wght@300;400&family=PT+Serif&family=Poppins:ital,wght@0,300;0,400;1,400&family=Public+Sans:wght@100;400;500;600;700;800;900&family=Roboto:wght@300&display=swap");
+.main-div {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  padding: 0 100px 0 250px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.icon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-align: center;
+}
+
+.box {
+  height: 300px;
+  width: 250px;
+  color: black;
+  border: 2px solid black;
+  padding: 40px 25px 40px 25px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 82px 10px 82px;
+  border-radius: 50px;
+  background-color: black;
+  color: white;
+}
+
+.box:nth-child(2) {
+  background-color: rgb(222, 15, 156);
+}
+
+.sec {
+  color: white !important;
+}
+
+.sec button {
+  background-color: white;
+  color: black;
+}
+
+@media (max-width: 576px) {
+  .main-div {
+    padding: 0 !important;
+  }
+}

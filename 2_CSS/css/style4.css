@@ -1,0 +1,11 @@
+.font-family p:nth-child(1){
+font-family: 'Gill sans','Gill sans MT','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.font-family p:nth-child(2){
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.font-family p:nth-child(3){
+    font-family:'Montserrat',sans-serif;
+    font-weight:bold;
+}

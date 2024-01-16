@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+body {
+    background-color: aliceblue !important;
+}
+
+section {
+    position: fixed;
+    height: 1000vh;
+    width: 200px;
+    background-color: white;
+}
+
+section p:hover {
+    color: red !important;
+    cursor: pointer;
+}
+
+i:hover {
+    color: red !important;
+}
+
+main {
+    margin-left: 200px;
+}
+
+input[type='search'] {
+    margin-top: 20px;
+    padding: 10px;
+    width: 20vw;
+    background-color: aliceblue;
+    border-radius: 20px;
+    border: 0;
+}
+
+main button {
+    margin-top: 20px;
+    border: 1px solid rgb(125, 123, 123) !important;
+    border-radius: 20px;
+}
+
+.time {
+    margin-top: 20px;
+}
+
+.time span {
+    line-height: 50px;
+}
+
+main .time button {
+    background-color: #cfe3f5;
+    border-radius: 100%;
+    padding: 0px 12px 0px 12px !important;
+    border: 0 !important;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.first{
+    width: 66vw;
+    height: 130px;
+    background-color: white;
+    border-radius: 0px 3px 3px 0px;
+    border-left: 5px solid rgb(96, 208, 96);
+}
+.col-11{
+    width: 66vw;
+    height: 130px;
+    background-color: white;
+    border-radius: 3px;
+    
+}
+
+.col-1{
+    height: 130px;
+    background-color: white;
+    border-radius: 3px;
+}
+ 
+.user{
+    margin-left: 60px;
+}
+
+.user span{
+    line-height: 12px;
+
+}
+.butt-div{
+    margin-left: 60px;
+}
+
+.butt-div button{
+    padding: 5px 18px 5px 18px !important;
+    background-color: white !important;
+}
+
+.side{
+    position: relative;
+    margin-top: -100px;
+    color: green;
+}
+
+.side p{
+    line-height: 10px;
+}
+
+
+

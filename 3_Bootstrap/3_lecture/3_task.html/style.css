@@ -1,0 +1,110 @@
+.heder-part{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.start-line{
+    display: flex;
+}
+.f1div{
+    padding: 10px;
+}
+span{
+    color: gray;
+}
+p{
+    color: gray;
+}
+a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+}
+.f2div{
+    padding: 10px 0px 10px 30px;
+}
+.finish{
+    padding: 10px 10px 10px 30px;
+}
+.finish span{
+}
+.round
+{
+    background-color: black;
+    color: white;
+    border-radius:100px;
+    padding: 0px 4px 2px 4px;
+    margin-left: 5px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: white;
+}
+.main-part {
+height: 300px;
+width: 100%;
+background-color: black;
+position: relative;
+}
+.main-part .container{
+    max-width: 1500px;
+    position: absolute;
+}
+.container h1{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.last .container{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    --bs-gutter-x: 0;
+
+}
+.col-3{
+    width: 250px;
+    margin-right: 20px;
+    height: 320px;
+    border-radius: 5px;
+    border: 1px solid gray ;
+}
+.col-3 .f-1 {
+    height: 150px;
+    width:100%;
+    background-color:   rgb(226, 246, 253);
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+.f-1 button{
+    padding: 0px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 75px 190px;
+}
+.last{
+    margin-top: 100px;
+}
+h4{
+    margin-top: 30px;
+    text-align: center;
+}
+.textes button{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+
+
+

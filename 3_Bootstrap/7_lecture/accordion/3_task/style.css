@@ -1,0 +1,30 @@
+.accordion {
+    width: 40vw;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+body {
+    background-image: linear-gradient(to left, #f48e80, rgb(97, 97, 157));
+    color: white;
+}
+
+.accordion-item {
+    background-image: linear-gradient(to left, #C68089, #8E6F94);
+    margin-bottom: 10px;
+    color: white;
+    border: 0;
+    box-shadow: 0;
+}
+
+.accordion-header .accordion-button {
+    box-shadow: none;
+    color: white;
+    margin-left: 0;
+}
+
+.accordion-header .accordion-button {
+    box-shadow: none;
+    color: white;
+    background-color: rgb(87, 83, 83);
+}

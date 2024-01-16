@@ -1,0 +1,76 @@
+.offcanvas-header h5 {
+    height: 4rem;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.offcanvas-header {
+    padding: 0;
+}
+
+h2 {
+    position: absolute;
+}
+
+.accordion button {
+    width:18vw;
+}
+
+.accordion-button {
+    background-color: white !important;
+    border: none;
+    height: 3rem !important;
+    margin-bottom: 0 !important;
+}
+
+h6 {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+button h5 {
+    color: gray;
+    padding: 0;
+    margin: 0;
+}
+
+button h5 :hover {
+    color: black;
+}
+.accordion :focus {
+    border: 0;
+    box-shadow: none;
+}
+
+.accordion {
+    --bs-accordion-border-color: none;
+}
+
+.accordion-button::after {
+    width: 0;
+}
+.offcanvas-body {
+    flex-grow: 0;
+    padding: 0;
+}
+
+.accordion-body {
+    padding: 0px 20px;
+    margin-top: -15px;
+}
+.accordion-item  button:focus i{
+    animation: ani .2s ease-in-out both;
+}
+@keyframes ani {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+
+
+

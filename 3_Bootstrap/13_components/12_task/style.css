@@ -1,0 +1,26 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+    margin-top: 100px;
+    background-color: white;
+    height: 100%;
+    width: 350px;
+    padding:20px 25px 25px 25px;
+}
+
+.btn{
+    background-color: aliceblue;
+}
+
+.form-check-input{
+    padding: 10px 20px 10px 20px;
+    background-color: aliceblue;
+    border: 0;
+}
+
+
+
