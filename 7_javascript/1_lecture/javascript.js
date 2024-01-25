@@ -1,8 +1,6 @@
 
 // What is javascript
 
-
-
 /*
 -> JavaScript is a dynamic computer programming language.
 -> It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities.
@@ -23,7 +21,7 @@
 
 // javascript language case-sensitive 
 
-/**************** variable useing var() in javascript *************************/ 
+/**************** variable using var() in javascript *************************/ 
 
 {           
     // const number1 = 20;   
@@ -33,23 +31,28 @@
     // console.log(number1)
     // var number2 = 40;
     // console.log(Total)
-
 }
 
 /*******New Html Element Add In Though Javascript *********/
 
 {
-    var newelement = document.createElement("h1"); 
-    newelement.textContent="hello world"; 
-    document.body.appendChild(newelement); 
+    // var newelement = document.createElement("h1"); 
+    // newelement.textContent="hello world"; 
+    // document.body.appendChild(newelement); 
     
     // var newelement=document.createElement("marquee" , Option);
     // newelement.textContent="hello world";
     // document.body.appendChild(newelement);
-    
+
+
     // var newelement=document.createElement("pre");
     // newelement.textContent="how are you!";
     // document.body.appendChild(newelement);
+
+    // var newelement = document.createElement("pre");
+    // newelement.textContent = "helloworld";
+    // document.body.append(newelement);
+
 }
 
 // js comments
@@ -62,29 +65,30 @@ comments */
 
 // Template Literals
 
-{
-    // var _nameone = 20 - 20 - '5';
-    // // var _nametwo= '5';
-    // console.log(_nameone);
-    // console.log(typeof(_nameone));
+// {
+//     var _nameone = 20 - 20 - '5';
+//     var _nametwo= '5';
+//     console.log(_nameone);
+//     console.log(typeof(_nameone));
 
+//     var one = 20
+//     var two = 40
 
+//     var three = "one 'two'"
+//     console.log(three);
 
-    // var one = 20
-    // var two = 40
+//     var four  = `'one' "two"'`
+//     console.log(four);
 
-    // var three = "one 'two'"
-    // console.log(three);
+//     var five = `''one'` + `"two"`
+//     console.log(five);
 
-    // var four  = 'one "two"'
-    // console.log(four);
+//     var five = `${one} + "two"`
+//     console.log(five);
 
-    // var five = `''one' "two"`
-    // console.log(five);
-
-    // var six = `${one} + ${two}`
-    // console.log(six);
-}
+//     var six = `${one} + ${two}`
+//     console.log(six);
+// }
 
 // Rules for Naming JavaScript Variables
 
@@ -96,7 +100,8 @@ comments */
 }
 {
     //invalid
-    var a1 = 'hello'; // this gives an error
+    // var 1a = 'hello'; // this gives an error
+    // console.log(a1);
 }
 
 // JavaScript is case-sensitive. So y and Y are different variables
@@ -123,6 +128,8 @@ Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ 
 */
 
 
-
+// var num = 1 + "2" + 3
+// console.log(num);
+// console.log(typeof(num));
 
 

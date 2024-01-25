@@ -1,0 +1,9 @@
+div {
+  background-color: blue;
+}
+div ul li {
+  color: pink;
+}
+div ol li {
+  color: blue;
+}

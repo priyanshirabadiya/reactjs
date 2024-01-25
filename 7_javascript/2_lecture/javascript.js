@@ -2,6 +2,10 @@
 
 // var x = 20 + 20 + "5" + 20 + 20 + 20 * 2 - 50 + "5";
 
+// only minus value makes it number
+// if there is an any kind of value except - + "string" than that typeof function is being string
+// if any value of - that it being -
+
 // var y = 20 + 20 + "5"
 
 // var z = 20 + 20 + "5" + 20
@@ -14,9 +18,9 @@
 
 // var zzzz = 20 + 20 + "5" + 20 + 20 + 20 * 2 
 
-// var zzzzz = 20 + 20 + "5" + 20 + 20 + 20 * 2 - 50 
+// var zzzzz = 20 + 20 + "5" + 20 + 20 + 20 * 2 - 50
 
-// var zzzzzz = 20 + 20 + "5" + 20 + 20 + 20 * 2 - 50 + "5"
+// var zzzzzz = 20 + 20 + "5" + 20 + 20 + 20 * 2 - 50 + "5" 
 
 // 405202040 - 50
 // 4052019905
@@ -52,31 +56,54 @@
 //     var y = 40;
 // }
 
-
 // console.log(y)
 
 /* Declaration let() */
 
 /* Block-scope variables */
 
+// let x = 'javascript'
+// {
+//     // let x = "hello"
+//     // let x = 'java'
+//     console.log(x);
+// }
+
+
+// let kato braket ni uunder hovo joiae kato savy braket no hova 
 {
-    // let x = "hello"
-    // let x = 'java'
-    // x = 'javascript'
+    // const num = 10;
+    // // calling the function inside block
+	// // console.log(num)
+    // console.log(num)
+}
+
+//  const x = 20;
+ {
+    // const x = 50;
+    // console.log(x);
+}
+{
+    // const x = 30;
+}
+
+// console.log(x);
+
+
+
+
+{
+    // let x = 'sun'
     // console.log(x);
 }
 
-// {let x = 'sun'}
-
 // {let z = 50}
-
 
 
 
 /* Declaration const() */
 
 // const x = 20;
-
 
 // {
 //     const x = 20;
@@ -89,23 +116,21 @@
 // console.log(x);
 
 
-
-
 /* string with quotes */
 
 {
-    let string1  = "He'llo"
-    let string2  = 'He"llo'
-    let string3  = "He\"llo"
-    let string4  = 'He\'llo'
-    let string5  = "He\nllo"
-    let string6  = "He\t\tllo"
-    console.log(string1);
-    console.log(string2);
-    console.log(string3);
-    console.log(string4);
-    console.log(string5);
-    console.log(string6);
+    // let string1  = "He'llo"
+    // let string2  = 'He"llo'
+    // let string3  = "He\"llo"
+    // let string4  = 'He\'llo'
+    // let string5  = "He\nllo"
+    // let string6  = "He\t\tllo"
+    // console.log(string1);
+    // console.log(string2);
+    // console.log(string3);
+    // console.log(string4);
+    // console.log(string5);
+    // console.log(string6);
 }
 
 /*

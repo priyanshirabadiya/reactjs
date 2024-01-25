@@ -1,0 +1,19 @@
+@use 'index' as *;
+@use 'variable' as *;
+
+div
+{
+    background-color: $color-blue;
+    ul{
+        li
+        {
+            color: $color-pink;
+        }
+    }
+    ol{
+        li{
+            color: $color-blue;
+        }
+    }
+}
+

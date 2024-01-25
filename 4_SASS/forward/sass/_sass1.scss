@@ -1,0 +1,8 @@
+@use 'variables' as *;
+@use 'index' as *;
+
+div{
+    // background-color: $color;
+    color: $color-text;
+    background-color: $color-blue;
+}

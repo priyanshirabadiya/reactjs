@@ -1,0 +1,10 @@
+@use 'index';
+@use 'variables.scss';
+
+@each $a in (main  , box-3 , box-1  , box-2){
+    .#{$a}{
+      border:1px solid red;
+      height: $s-1;
+      width: $s-2;
+    }
+}
