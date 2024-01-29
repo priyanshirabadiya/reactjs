@@ -59,26 +59,26 @@
 //         printf("%d ",power);
 // }
 
-#include<stdio.h>
-int main()
-{
-    int number[] = { 1 , 2 , 3 , 4 , 5 , 6 };
-    int find = 5 ;
-    int i;
-    for(i = 0 ; i < 7 ; i++)
-    {   
-        if( find == number[i])
-        {
-        printf("find at position: %d ",i);
-        break;
-        }
-    }
+// #include<stdio.h>
+// int main()
+// {
+//     int number[] = { 1 , 2 , 3 , 4 , 5 , 6 };
+//     int find = 5 ;
+//     int i;
+//     for(i = 0 ; i < 7 ; i++)
+//     {   
+//         if( find == number[i])
+//         {
+//         printf("find at position: %d ",i);
+//         break;
+//         }
+//     }
 
-     if (i == 10) {
-    printf("The number %d is not in the array.\n", find);
-    }
-    return 0;
-}
+//      if (i == 10) {
+//     printf("The number %d is not in the array.\n", find);
+//     }
+//     return 0;
+// }
 
 
 
