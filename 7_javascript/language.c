@@ -102,3 +102,111 @@
 
 //   return 0;
 // }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i , j ,n;
+//     printf("enter n :");
+//     scanf("%d",&n);
+//     for( i = 65 ; i <= 5 ; i++)
+//     {
+//         for(j = 65 ; j <= i ; j++)
+//         {
+//             printf("%2c",j);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include<stdio.h>
+
+// int main() {
+//     int i, j, n;
+
+//     printf("Enter n: ");
+//     scanf("%d", &n);
+
+//     for (i = 1; i <= n; i++) {
+//         for (j = 1; j <= i; j++) {
+//             printf("%2c", 64 + j);  // Using ASCII values to print characters
+//         }
+//         printf("\n");
+//     }
+
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+
+// int main() {
+//     int i, j, n , sp = 1;
+
+//     printf("Enter n: ");
+//     scanf("%d", &n);
+
+//     for (i = 1; i <= n; i++) {
+//         // char printChar = 'A';
+//         // for (j = 1; j <= i; j++) {
+//         //     printf("%2c", printChar++);
+//         // }
+//         // for(i = 1 ; i <= sp ; j++)
+//         // {
+//         //     printf(" ");
+//         // }
+//         char printChae = 'A';  
+//         for (j = n; j >= i; j--) {
+//             printf("*");
+//         }
+//         for(j = 1 ; j <= sp ; j++)
+//         {
+//             printf(" ");
+//         }
+//         for(j = n; j >= i ; j--)
+//         {
+//             printf("*");
+//         }
+//         for(j = 1 ; j <= sp ; j++)
+//         {
+//             printf(" ");
+//         }
+//         for(j = n; j >= i ; j--)
+//         {
+//             printf("*");
+//         }
+//         for(j = 1 ; j <= sp ; j++)
+//         {
+//             printf(" ");
+//         }
+//         for(j = n; j >= i ; j--)
+//         {
+//             printf("*");
+//         }
+        
+//         printf("\n");
+//     }
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// int main()
+// {
+//     int  i , j , sp ;
+//     int n;
+//     printf("enter n:");
+//     scanf("%d",&n);
+//     char a = 'E';
+//     for(i = 1 ; i <= n ; i++)
+//     {
+//         for(j = 1 ; j <= i ; j++)
+//         {
+//             printf("%2c",a);
+//         }
+//             a--;
+//         printf("\n");
+//     }
+// }

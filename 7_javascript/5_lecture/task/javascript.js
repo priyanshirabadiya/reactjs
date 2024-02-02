@@ -27,7 +27,7 @@
 //     i++;
 // }
 
-// ----------------------------------4-------------------------
+// -------------------------------5-------------------------
 
 
 // var a = 0 , b = 1 , c;
@@ -89,22 +89,20 @@
 
 // -----------------------------12---------------------------------
 
-// var n = 55241;
+// var n = prompt("enter n:");
 // var i;
 // for ( i = 2 ; i < n ; i++)
 // {
 //     if(n % i == 0)
 //     {
-//         console.log(`${i} number : ${n} is not prime `);
+//         document.write(`${i} number : ${n} is not prime `);
 //         break;
 //     }
 // }
 // if(i == n)
 // {
-//     console.log(`number : ${n} is prime `);
-
+//     document.write(`number : ${n} is prime `);
 // }
-
 
 
 // -----------------------------14---------------------------------
@@ -156,3 +154,52 @@
 //     console.log(i);
 //     i++;    
 // }while(i <= n);
+
+{
+  // let randomNumber = 20;
+  // let guessCount = 0;
+  // let guess = 10;
+
+  // while (guessCount < guess) {
+  //   let userGuess = prompt("Enter a number between 1 and 100");
+  //   guessCount++;
+
+  //   if (userGuess == randomNumber) {
+  //     alert(
+  //       "Congratulations! You guessed the number in " + guessCount + " tries."
+  //     );
+  //     break;
+  //   }
+
+  //   if (userGuess > randomNumber) {
+  //     alert("Your guess is too high. Try again.");
+  //   } else if (userGuess < randomNumber) {
+  //     alert("Your guess is too low. Try again.");
+  //   }
+
+  //   if (guessCount == guess) {
+  //     alert(
+  //       "Sorry, you have exceeded the guess limit. The number was " +
+  //         randomNumber +
+  //         "."
+  //     );
+  //   }
+  // }
+}
+
+{
+// var n = 5 , i=1;
+// var string = "";
+// while(i <= n)
+// {
+//     let j = 1;
+//     while(j<=i)
+//     {
+//         string += j;
+//         j++;
+//     }
+//     string += "\n";
+//     i++;
+//   }
+//     console.log(string);
+}

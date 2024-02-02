@@ -80,53 +80,22 @@
     </script> -->
 
     <!-- ----------------------------------9------------------------------------>
-
-    <!-- <script>
+    <script>
         var n = 5 , i=1;
+        var string = "";
         while(i <= n)
         {
             let j = 1;
             while(j<=i)
             {
-                console.log(j);
+                string += j;
                 j++;
             }
+            string += "\n";
             i++;
         }
-    </script> -->
-    <!-- ----------------------------------10------------------------------------>
-
-    <!-- <script>
-        let doc = prompt("enter n:");
-        var n = parseInt(doc), i = 1, j = 1;
-        let result = ''; // Create a variable to store the result
-    
-        while (i <= n) {
-            while (j <= i) {
-                result += j; // Concatenate the current value of j to the result
-                j++;
-            }
-            result += '<br>'; // Add a line break after each inner loop
-            j = 1; // Reset j for the next iteration of the outer loop
-            i++;
-        }
-    
-        document.getElementById("g").innerHTML = result; // Set the result as innerHTML
-    </script> -->
-    
-    <!-- ----------------------------------11------------------------------------>
-    <!-- <script>
-    var userInput;
-    while (true) {
-      userInput = prompt("Enter something (type 'exit' to stop):");
-      if (userInput.toLowerCase() === 'exit') {
-        break;
-      }
-      document.write("You entered: " + userInput + "<br>");
-    }
-    document.write("Loop has been exited!");
-    </script> -->
-
+        console.log(string);
+    </script>
 </body>
 </html> 
 
