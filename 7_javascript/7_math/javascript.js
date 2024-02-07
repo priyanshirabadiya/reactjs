@@ -88,10 +88,10 @@ The syntax for Math any methods is : Math.method(number)
 
 // let math10 = Math.sign(-0)
 // let math11 = Math.sign(-10)
-let math12 = Math.sign(0)
+// let math12 = Math.sign(0) 
 // console.log(math10);
 // console.log(math11);
-console.log(math12);
+// console.log(math12);
 
 
 	
@@ -110,20 +110,22 @@ console.log(math12);
 //Math.sqrt(x) returns the square root of x.
 //Example:-
 
-// let math14  = Math.sqrt(0)
+// let math14  = Math.sqrt(121)
 // console.log(math14);
 
 // let number  = -(0-0)-0
-// console.log(number);
+            // = -0-0
+            // =-0
+console.log(number);
 
-		
+
 
 //Math.abs():-
 
 //Math.abs(x) returns the absolute (positive) value of x.
 //Example:-
 
-// let math15 = Math.abs(-0)
+// let math15 = Math.abs(-15)
 // console.log(math15);
 
 
@@ -149,7 +151,7 @@ console.log(math12);
 
 //Example:-
 
-// const math18 = Math.random()*10000
+// const math18 = Math.random()*1000
 // console.log(math18);
 
 

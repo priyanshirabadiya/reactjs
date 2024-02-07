@@ -1,0 +1,11 @@
+.box-1 {
+    background: blueviolet;
+    width: 600px;
+    height: 400px;
+    margin:150px auto;
+    transition: 500ms linear;
+  }
+
+  .box-1:hover {
+    transform: scale(1.1);
+  }

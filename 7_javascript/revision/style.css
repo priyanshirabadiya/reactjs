@@ -1,0 +1,56 @@
+/* .para p{
+    height: 50px;
+    width: 50px;
+    border: 5px solid red;
+} */
+
+/* .animation-content{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    background-color: gray;
+    animation-name: rotate;
+    animation-duration: 5s;
+} */
+
+.maindiv
+{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.transition{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+
+.maindiv:hover .transition{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    transform: translate(500px);
+    transition-duration: 3s;
+    transition-timing-function: step-end;
+    /* transition-property: all; */
+
+}
+
+
+
+/* .transform{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    margin: 300px;
+} */
+
+
+/* .transform:hover{ */
+    /* transform: translate(100px); */
+    /* transform: scale(-0.6); */
+    /* transition-duration: 5s; */
+    /* transform: rotate(360deg); */
+    /* transform: skew(90deg , 90deg); */
+/* } */
