@@ -13,13 +13,6 @@
     background-repeat: no-repeat; 
     color:white; 
 }
-/*.card img{
-    position: absolute;
-    height: 400px;
-    width: 300px;
-    border-radius: 20px;
-    padding: 20px;
-}*/
 .footer{ 
     margin-top: 70px; 
     display: flex; 
