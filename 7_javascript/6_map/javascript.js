@@ -14,10 +14,14 @@
     // window.alert("this is javascript");
     // alert("Hello User");
 }
+{
+    // window.alert("hiro");
+    // alert("Hello User");
+}
 
 {
     // let  vivek;
-    // vivek = true;
+    // vivek = false;
 
     // alert(vivek ? "Nagative User" : "Positive User");
 }
@@ -32,7 +36,6 @@
 // document.write(Message);
 // let message = confirm("this is js?");
 // document.write(message);
-
 
 
 /* Javascript Map Methods */
@@ -62,22 +65,22 @@ size 	Returns the number of elements in a Map
     //     ["option-4" , 80]
     // ])
 
-    // document.getElementById("new").innerHTML = Data.get("option-4");
+    // document.getElementById("new").innerHTML = Data.get("option-2");
 }
 
 {
 
     /* The set() method can also be used to change existing Map values */
 
-    const newmap = new Map();
+    // const newmap = new Map();
 
-    newmap.set("item-1" , "car");
-    newmap.set("item-2" , "bus");
-    newmap.set("item-3" , "truck");
-    newmap.set("item-4" , 50 )
+    // newmap.set("item-1" , "car");
+    // newmap.set("item-2" , "bus");
+    // newmap.set("item-3" , "truck");
+    // newmap.set("item-4" , 50 )
 
-    document.getElementById("set1").innerHTML =newmap.get("item-2");
-    console.log(newmap);
+    // document.getElementById("set1").innerHTML =newmap.get("item-4");
+    // console.log(newmap);
 }
 
 {
@@ -107,11 +110,11 @@ size 	Returns the number of elements in a Map
     // ])
     // const sizes = Data.size;
     // document.getElementById("size").innerHTML =sizes;
+
 }  
 
 {
     /* The delete() method removes a Map element */
-
     // const newmap = new Map([
     //     ["item-1" , "car"],
     //     ["item-2" , "bus"],
