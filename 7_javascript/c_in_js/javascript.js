@@ -1,9 +1,19 @@
 // ------------------------------------for loop----------------------------------
 
-// var a , i ;
-// for(i = 10 ; i >= 1 ; i--)
+// var a , i , n = prompt("enter n:");
+// n = parseInt(n);
+// for(i = n ; i >= 1 ; i--)
 // {
 //     console.log(i);
+//     console.log(typeof(i));
+// }
+
+
+// var n = Number(prompt("enter n:"))
+// {
+//     console.log(n);
+
+//     console.log(typeof(n));
 // }
 
 // ----------------------------------------------------------------------

@@ -1,0 +1,69 @@
+* .pagination{
+    width: 600px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  
+  .backward , .forward{
+    width: 50px; 
+    height: 50px;
+    border:1px solid black;
+    border-radius:0px 0px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } 
+  
+  .backward span , .forward span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+   .backward{
+    border-radius:10px 10px 0px 0px ;
+  }
+  .page-1{
+    width: 50px;
+    height: 50px;
+    border:1px solid black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-1 a{
+    text-decoration: none;
+    
+  }
+  
+  .pagination .page-1:nth-child(7){
+    margin-bottom: 10px;
+  }
+  
+  .backward:hover , .forward:hover , .page-1:hover{
+    background-color: green;
+    color:white;
+  }
+  
+  .page-1:hover a{
+    color:white;
+  }
+  
+  .backward span{
+    transform: rotate(90deg);
+    transition: 2s;
+  }
+  .backward:hover span{
+    transform: translateY(-5px) rotate(90deg);
+  }
+  
+  .forward:hover span{
+    transform: translateY(5px) rotate(90deg);
+  }
+  
+  .forward span{
+    transform: rotate(90deg);
+    transition: 0.5s;
+  } 
