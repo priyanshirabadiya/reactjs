@@ -1,0 +1,49 @@
+
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0;
+    font-family: Urbanist, sans-serif;
+  }
+  
+  a{
+    color:black;
+  }
+  
+  /* container */
+  
+  .container{
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-items nav ul{
+    display: none;
+  }
+  
+  .menu-icon{
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-items{
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact{
+    display: none;
+  }
+  
+  
+  

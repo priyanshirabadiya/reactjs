@@ -1,0 +1,56 @@
+/* Media Queries */
+
+@media (min-width:576px) {
+    .container{
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width:768px) {
+    .container{
+      max-width: 720px;
+    }
+  .contact{
+    display: block;
+  }
+  .nav-items .contact{
+    order:1;
+  }
+  .nav-items nav{
+    order:2;
+  }
+    
+  }
+  
+  @media (min-width:992px){
+    .container{
+      max-width: 960px;
+    }
+    .mobile-menu{
+      display: none;
+    }
+    .nav-items nav ul{
+      display: flex;
+    }
+    .nav-items .contact{
+      order:2;
+    }
+    .nav-items nav{
+      order:1;
+    }
+  }
+  
+  .sandbox{
+    width: fit-content;
+    height: fit-content;
+    border:1px solid black;
+  }
+  
+  
+  /* sandbox start */
+  
+  header{
+    background-color: gray;
+  }
+  
+  
