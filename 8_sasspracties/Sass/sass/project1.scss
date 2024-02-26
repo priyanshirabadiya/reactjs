@@ -1,0 +1,52 @@
+@import'variable/variable';
+
+header{
+    nav{
+        display: $flex;
+        justify-content: $justify-c-2;
+        padding: $p-2;
+        ul{
+            display: $flex;
+            justify-content: $justify-c-2; 
+            gap: 30px;
+            list-style: none;
+        }
+        .button{
+            background-color: $bg-5;
+            button{
+                background-color: $bg-5;
+                border: 0;
+            }
+        }
+    }
+    section{
+        position: relative;
+        .text{
+            position: absolute;
+            top:50px;
+            left:600px;
+            color: $c-1;
+        }
+    }
+     
+}
+section{
+    
+    height:$h-6;
+    text-align: center;
+    .image{
+        background-color: white;
+        button{
+            background-color: $bg-5;
+            height:40px;
+            color:$c-1;
+        }
+        h2{
+            color:$c-3;
+            span{
+                color:$c-2;
+            }
+        }
+    }
+    
+}

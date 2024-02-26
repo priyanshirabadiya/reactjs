@@ -1,0 +1,1142 @@
+
+/* ====================== 1200px =============================== */
+
+@media (max-width:1200px)
+{
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }
+    
+    
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper
+    {
+        left: 0px;
+        width: 100%;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+  
+}
+
+
+
+/* ================== 1020px ========================== */
+
+@media (max-width:1020px)
+{
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }   
+
+
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper
+    {
+        left: 0px;
+        width: 100%;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns
+    {
+        width: auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns button
+    {
+        margin: auto 5px;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns
+    {
+        width: auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns button
+    {
+        margin: auto 5px;
+    }
+  
+
+}
+
+
+
+
+
+@media (min-width:577px) and (max-width:768px)
+{
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }   
+  
+
+    #main-container .nav-warpper
+    {
+        left: 0px;
+        width: 100%;
+    }
+
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+
+    #main-container #row-I
+    {
+        margin: auto;
+        height: inherit;
+        width: calc(100% - 2%);
+    }
+
+    #main-container #row-I .I-col-I,
+    #main-container #row-I .I-col-II
+    {
+        width: 100%;
+        margin: 8px auto;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper
+    {
+        height:480px;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card
+    {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .heading
+    {
+        padding-top: 16px;
+    }
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
+        width: 100%;
+        height: 40%;
+    }
+
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
+    {
+        height: 90%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
+        top: 20%;
+        right: 0%;
+        height: 170px;
+        width: 100%;
+    }
+
+  
+    #main-container #row-II{
+        height: inherit;
+        margin: 12px auto;
+        width: calc(100% - 2%);
+    }
+
+    #row-II .II-col-I,
+    #row-II .II-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis
+    {
+        margin-top: 18px;
+    }
+    
+    #row-II .II-col-I .col-card-3 .card-detalis .card-deta
+    {
+        margin-bottom: 8px;
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img
+    {
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img img
+    {
+        transform:none;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns{
+        width: 93%;
+        margin: 18px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns
+    {
+        height: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btns-logo
+    {
+        justify-content:space-between;
+        width: 70%;
+        margin: 6px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns h1
+    {
+        width: 75%;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress{
+        align-items: flex-start;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress .Progress-bar{
+        margin:0px;
+        margin-left: 15%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta
+    {
+        flex: 0 0 29%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img
+    {
+        margin: 18px auto;
+        width: 100%;
+        height:100%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img img
+    {
+        object-fit: contain;
+    }
+
+
+    #main-container #row-III
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-III .III-col
+    {
+        width: 100%;
+        flex: 1 1 auto;
+        margin: 8px auto;
+    }
+
+
+    #main-container #row-IV
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-IV .IV-col-I
+    {
+        margin: 8px auto;
+        width: 100%; 
+        order: 2;
+    }
+
+    #row-IV .IV-col-I .col-card-8  .col-card-body .card-details .col-line .line-deta 
+    {
+        margin-right: 0px;
+        width:30%;
+    }
+
+    
+    #row-IV .IV-col-II
+    {
+        order: 1;
+        margin: 8px auto;
+        width: 100%;
+        overflow: auto;
+        flex: 1 1 auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body 
+    {
+        width: 100%;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row,
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row,
+    #row-IV .IV-col-II .col-card-9 .card-9-head,
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer
+    {
+        width:calc(100% + 100%);
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns
+    {
+        width: auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer .foot-wrapper .foot-btns button
+    {
+        margin: auto 5px;
+    }
+
+    
+    footer
+    {
+        grid-column: 1/-1;
+    }
+
+    footer .footer-wrapper
+    {
+        justify-content: center;
+    }
+
+    footer .footer-wrapper .footer-deta p{
+        text-align: center;
+    } 
+
+
+    footer .footer-wrapper .footer-links{
+        display: none;
+    }
+}
+
+/* =========================650px and 768px ================= */
+
+@media (min-width:650px) and (max-width:768px)
+{
+
+    #row-IV .IV-col-II
+    {
+        order: 1;
+        width: 100%;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row,
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row,
+    #row-IV .IV-col-II .col-card-9 .card-9-head,
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer
+    {
+        width:auto;
+    }
+}
+
+
+/* ============================ 576px ================================== */
+
+@media (max-width:576px)
+{
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }   
+  
+
+    #main-container .nav-warpper
+    {
+        left: 0px;
+        width: 100%;
+    }
+
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+
+    #main-container #row-I
+    {
+        margin: auto;
+        height: inherit;
+        width: calc(100% - 2%);
+    }
+
+    #main-container #row-I .I-col-I,
+    #main-container #row-I .I-col-II
+    {
+        width: 100%;
+        margin: 8px auto;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper
+    {
+        height:480px;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card
+    {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .heading
+    {
+        padding-top: 16px;
+    }
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
+        width: 100%;
+        height: 40%;
+    }
+
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
+    {
+        height: 90%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
+        top: 20%;
+        right: 0%;
+        height: 170px;
+        width: 100%;
+    }
+
+  
+    #main-container #row-II{
+        height: inherit;
+        margin: 12px auto;
+        width: calc(100% - 2%);
+    }
+
+    #row-II .II-col-I,
+    #row-II .II-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis
+    {
+        margin-top: 18px;
+    }
+    
+    #row-II .II-col-I .col-card-3 .card-detalis .card-deta
+    {
+        margin-bottom: 8px;
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img
+    {
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img img
+    {
+        transform:none;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns{
+        width: 93%;
+        margin: 18px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns
+    {
+        height: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btns-logo
+    {
+        justify-content:space-between;
+        width: 70%;
+        margin: 6px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns h1
+    {
+        width: 75%;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress{
+        align-items: flex-start;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress .Progress-bar{
+        margin:0px;
+        margin-left: 15%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta
+    {
+        flex: 0 0 29%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img
+    {
+        margin: 18px auto;
+        width: 100%;
+        height:100%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img img
+    {
+        object-fit: contain;
+    }
+
+
+    #main-container #row-III
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-III .III-col
+    {
+        width: 100%;
+        flex: 1 1 auto;
+        margin: 8px auto;
+    }
+
+
+    #main-container #row-IV
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-IV .IV-col-I
+    {
+        margin: 8px auto;
+        width: 100%; 
+        order: 2;
+    }
+    
+    #row-IV .IV-col-II
+    {
+        order: 1;
+        margin: 8px auto;
+        width: 100%;
+        overflow: auto;
+        flex: 1 1 auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body 
+    {
+        width: 100%;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row,
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row,
+    #row-IV .IV-col-II .col-card-9 .card-9-head,
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer
+    {
+        width:calc(100% + 100%)
+    }
+
+    
+    footer
+    {
+        grid-column: 1/-1;
+    }
+
+    footer .footer-wrapper
+    {
+        justify-content: center;
+    }
+
+    footer .footer-wrapper .footer-deta p{
+        text-align: center;
+    } 
+
+
+    footer .footer-wrapper .footer-links{
+        display: none;
+    }
+}
+
+
+
+/* =================321px and 550px ======================================= */
+
+
+@media (min-width:321px) and (max-width:550px)
+{
+
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }   
+  
+
+    #main-container .nav-warpper
+    {
+        left: 0;
+        right: 0%;
+        width: calc(100% - 5%);
+    }
+
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+
+    #main-container .nav-warpper nav .nav-btn li
+    {
+        width: 38px;
+        height: 38px;
+    }
+
+    #main-container #row-I
+    {
+        margin: auto;
+        height: inherit;
+        width: calc(100% - 10%);
+    }
+
+    #main-container #row-I .I-col-I,
+    #main-container #row-I .I-col-II
+    {
+        width: 100%;
+        margin: 8px auto;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card
+    {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .heading
+    {
+        padding-top: 16px;
+    }
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
+        width: 100%;
+        height: 40%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
+    {
+        height: 90%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
+        top: 20%;
+        right: 0%;
+        height: 170px;
+        width: 100%;
+    }
+    
+    #row-I .I-col-II .col-card-2 .card-1,
+    #row-I .I-col-II .col-card-2 .card-2
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+  
+    #main-container #row-II{
+        height: inherit;
+        margin: 12px auto;
+        width: calc(100% - 2%);
+    }
+
+    #row-II .II-col-I,
+    #row-II .II-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis
+    {
+        margin-top: 18px;
+    }
+    
+    #row-II .II-col-I .col-card-3 .card-detalis .card-deta
+    {
+        margin-bottom: 8px;
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img
+    {
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img img
+    {
+        transform:none;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns{
+        width: 85%;
+        margin: 18px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns
+    {
+        flex:0 0 100%;
+        height: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btns-logo
+    {
+        justify-content:space-between;
+        width: 70%;
+        margin: 6px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns h1
+    {
+        width: 75%;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress{
+        align-items: flex-start;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress .Progress-bar{
+        margin:0px;
+        margin-left: 15%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis
+    {
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta 
+    {
+        width: 50%;
+        height: 100%;
+        margin: 12px 0px 8px 0px;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta 
+    .card-4-btns .Time .logo-text 
+    {
+        right: -18px;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img
+    {
+        margin: 18px auto;
+        width: 100%;
+        height:100%;
+    }
+
+
+    #main-container #row-III
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-III .III-col
+    {
+        width: 100%;
+        flex: 1 1 auto;
+        margin: 8px auto;
+    }
+
+
+    #main-container #row-IV
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-IV .IV-col-I
+    {
+        margin: 8px auto;
+        width: 100%; 
+    }
+
+    
+    #row-IV .IV-col-I .col-card-8  .col-card-body .card-details .col-line .line-deta 
+    {
+        margin-right: 0px;
+        width:45%;
+    }
+
+    
+    #row-IV .IV-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+        overflow: auto;
+        flex: 1 1 auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body 
+    {
+        width: 100%;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row,
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row,
+    #row-IV .IV-col-II .col-card-9 .card-9-head,
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer
+    {
+        width:calc(100% + 100%);
+    }
+
+
+
+    footer
+    {
+        grid-column: 1/-1; 
+        margin-bottom: 8px;
+    }
+
+    footer .footer-wrapper .footer-deta p{
+        text-align: center;
+    }
+
+
+    footer .footer-wrapper .footer-links{
+        display: none;
+    }
+
+}
+
+/* ======================================== 320px ================================ */
+
+
+@media (max-width:320px)
+{
+
+    .asid-wrapper
+    {
+        display: none;
+    }
+
+    #main-container{
+        grid-column: 1/-1;
+        grid-row: 1/2;
+        padding: 95px 0px 0px 0px ;
+    }   
+  
+
+    #main-container .nav-warpper
+    {
+        left: 0px;
+        width: 100%;
+    }
+
+    #main-container .nav-warpper nav .moblie-menu
+    {
+        display: block;
+        margin-right: 6px;
+    }
+
+    #main-container .nav-warpper nav label p
+    {
+        display: none;
+    }
+
+    #main-container .nav-warpper nav .nav-btn li
+    {
+        width: 38px;
+        height: 38px;
+    }
+
+    #main-container #row-I
+    {
+        margin: auto;
+        height: inherit;
+        width: calc(90% - 10%);
+    }
+
+    #main-container #row-I .I-col-I,
+    #main-container #row-I .I-col-II
+    {
+        width: 100%;
+        margin: 8px auto;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card
+    {
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .heading
+    {
+        padding-top: 16px;
+    }
+    
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
+        width: 100%;
+        height: 40%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta ul
+    {
+        height: 90%;
+    }
+
+    #row-I .I-col-I .col-card-1 .card-wrapper .card .card-img{
+        top: 20%;
+        right: 0%;
+        height: 170px;
+        width: 100%;
+    }
+    
+    #row-I .I-col-II .col-card-2 .card-1,
+    #row-I .I-col-II .col-card-2 .card-2
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+  
+    #main-container #row-II{
+        height: inherit;
+        margin: 12px auto;
+        width: calc(100% - 2%);
+    }
+
+    #row-II .II-col-I,
+    #row-II .II-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis
+    {
+        margin-top: 18px;
+    }
+    
+    #row-II .II-col-I .col-card-3 .card-detalis .card-deta
+    {
+        margin-bottom: 8px;
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img
+    {
+        flex: 0 0 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-detalis .card-img img
+    {
+        transform:none;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns{
+        width: 85%;
+        margin: 18px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns
+    {
+        flex:0 0 100%;
+        height: 100%;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btns-logo
+    {
+        justify-content:space-between;
+        width: 70%;
+        margin: 6px auto;
+    }
+
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns h1
+    {
+        width: 75%;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress{
+        align-items: flex-start;
+    }
+
+    
+    #row-II .II-col-I .col-card-3 .card-III-btns .card-btns .card-btn-Progress .Progress-bar{
+        margin:0px;
+        margin-left: 15%;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis
+    {
+        flex-flow: column wrap;
+        align-items: flex-start;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta 
+    {
+        width: 50%;
+        height: 100%;
+        margin: 12px 0px 8px 0px;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-deta 
+    .card-4-btns .Time .logo-text 
+    {
+        right: -18px;
+    }
+
+    #row-II .II-col-II .col-card-4 .card-detalis .card-4-img
+    {
+        margin: 18px auto;
+        width: 100%;
+        height:100%;
+    }
+
+
+    #main-container #row-III
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-III .III-col
+    {
+        width: 100%;
+        flex: 1 1 auto;
+        margin: 8px auto;
+    }
+
+
+    #main-container #row-IV
+    {
+        margin: 12px auto;
+        width: calc(100% - 2%);
+        flex-flow: column wrap;
+    }
+
+    #row-IV .IV-col-I
+    {
+        margin: 8px auto;
+        width: 100%; 
+    }
+
+    
+    #row-IV .IV-col-II
+    {
+        margin: 8px auto;
+        width: 100%;
+        overflow: auto;
+        flex: 1 1 auto;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body 
+    {
+        width: 100%;
+    }
+
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row,
+    #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row,
+    #row-IV .IV-col-II .col-card-9 .card-9-head,
+    #row-IV .IV-col-II .col-card-9 .col-card-9-footer
+    {
+        width:calc(100% + 100%);
+    }
+
+
+
+    footer
+    {
+        grid-column: 1/-1; 
+        margin-bottom: 8px;
+    }
+
+    footer .footer-wrapper .footer-deta p{
+        text-align: center;
+    }
+
+
+    footer .footer-wrapper .footer-links{
+        display: none;
+    }
+
+}
+
+/* padding work on row width  */

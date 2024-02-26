@@ -1,0 +1,55 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+header nav .button {
+  background-color: orange;
+}
+header nav .button button {
+  background-color: orange;
+  border: 0;
+}
+header section {
+  position: relative;
+}
+header section .text {
+  position: absolute;
+  top: 50px;
+  left: 600px;
+  color: white;
+}
+
+section .image {
+  background-color: white;
+  display: flex;
+  height: 300px;
+  align-items: center;
+  max-width: 1000px;
+  margin-left: 260px;
+}
+section .image .image1 img {
+  border-radius: 100%;
+}
+section .image .text button:nth-child(4) {
+  background-color: orange;
+  color: white;
+  padding: 10px;
+  border: 0;
+}
+section .image .text button:nth-child(5)
+{
+  padding: 10px;
+}
+section .text span {
+  color: red;
+}
+section .text p:nth-child(3) {
+  color: #a09e9e;
+}/*# sourceMappingURL=project2.css.map */

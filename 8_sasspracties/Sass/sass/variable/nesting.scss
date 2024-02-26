@@ -1,0 +1,14 @@
+@import 'veraible';
+nav{
+    background-color:$bg-1;
+    ul{
+        list-style: none;
+    
+    }
+    li{
+        a{
+            text-decoration: none;
+            color:$c-1;
+        }
+    }
+}

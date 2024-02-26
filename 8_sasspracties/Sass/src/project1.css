@@ -1,0 +1,48 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  list-style: none;
+}
+header nav .button {
+  background-color: orange;
+
+}
+header nav .button button {
+  background-color: orange;
+  border: 0;
+}
+header section {
+  position: relative;
+}
+header section .text {
+  position: absolute;
+  top: 50px;
+  left:680px;
+  color: white;
+}
+
+section {
+  height: 250px;
+  text-align: center;
+}
+section .image {
+  background-color: white;
+}
+section .image button {
+  background-color: orange;
+  border: 0px;
+  height: 40px;
+  color: white;
+}
+section .image h2 {
+  color: red;
+}
+section .image h2 span {
+  color: black;
+}
