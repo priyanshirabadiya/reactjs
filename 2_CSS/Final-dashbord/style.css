@@ -60,7 +60,6 @@ body
 }
 
 
-
 /*  aside bar box ==================================================================== */
 
 
@@ -164,11 +163,11 @@ aside .aside-logo .logo-btn a span{
 /*======================  aside-buttons ====================================== */
 
 
-aside .aside-buttons .row-I-btns{
+aside .aside-buttons .row-1-btns{
     padding: 1px;
 }
 
-aside .aside-buttons .row-I-btns .I-btn,
+aside .aside-buttons .row-1-btns .I-btn,
 aside .aside-buttons .row-II-btns .II-btn,
 aside .aside-buttons .row-III-btns .III-btn,
 aside .aside-buttons .row-IV-btns .IV-btn,
@@ -198,7 +197,7 @@ aside .aside-buttons .row-VI-btns h1
 }
 
 
-aside .aside-buttons .row-I-btns .I-btn:hover,
+aside .aside-buttons .row-1-btns .I-btn:hover,
 aside .aside-buttons .row-II-btns .II-btn:hover,
 aside .aside-buttons .row-III-btns .III-btn:hover,
 aside .aside-buttons .row-IV-btns .IV-btn:hover,
@@ -208,7 +207,7 @@ aside .aside-buttons .row-VI-btns .VI-btn:hover{
     overflow: visible;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head,
+aside .aside-buttons .row-1-btns .I-btn .head,
 aside .aside-buttons .row-II-btns .II-btn .head,
 aside .aside-buttons .row-III-btns .III-btn .head,
 aside .aside-buttons .row-IV-btns .IV-btn .head,
@@ -225,7 +224,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head{
     width: 100%;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head:hover,
+aside .aside-buttons .row-1-btns .I-btn .head:hover,
 aside .aside-buttons .row-II-btns .II-btn .head:hover,
 aside .aside-buttons .row-III-btns .III-btn .head:hover,
 aside .aside-buttons .row-IV-btns .IV-btn .head:hover,
@@ -234,7 +233,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head:hover{
     background-color: #c7c6c93e;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head .icon,
+aside .aside-buttons .row-1-btns .I-btn .head .icon,
 aside .aside-buttons .row-II-btns .II-btn .head .icon,
 aside .aside-buttons .row-III-btns .III-btn .head .icon,
 aside .aside-buttons .row-IV-btns .IV-btn .head .icon,
@@ -247,7 +246,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head .icon{
     display: block;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head .icon img,
+aside .aside-buttons .row-1-btns .I-btn .head .icon img,
 aside .aside-buttons .row-II-btns .II-btn .head .icon img,
 aside .aside-buttons .row-III-btns .III-btn .head .icon img,
 aside .aside-buttons .row-IV-btns .IV-btn .head .icon img,
@@ -259,7 +258,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head .icon img{
     height: 100%;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head h3,
+aside .aside-buttons .row-1-btns .I-btn .head h3,
 aside .aside-buttons .row-II-btns .II-btn .head h3,
 aside .aside-buttons .row-III-btns .III-btn .head h3,
 aside .aside-buttons .row-IV-btns .IV-btn .head h3,
@@ -277,7 +276,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head h3{
     text-transform: capitalize;
 }
 
-aside .aside-buttons .row-I-btns .I-btn .head h3 span,
+aside .aside-buttons .row-1-btns .I-btn .head h3 span,
 aside .aside-buttons .row-II-btns .II-btn .head h3 span,
 aside .aside-buttons .row-III-btns .III-btn .head h3 span{
     text-align: center;
@@ -298,7 +297,7 @@ aside .aside-buttons .row-II-btns .II-btn .head h3 span
 }
 
 
-aside .aside-buttons .row-I-btns .I-btn .head .fa-right,
+aside .aside-buttons .row-1-btns .I-btn .head .fa-right,
 aside .aside-buttons .row-II-btns .II-btn .head .fa-right,
 aside .aside-buttons .row-III-btns .III-btn .head .fa-right,
 aside .aside-buttons .row-IV-btns .IV-btn .head .fa-right,
@@ -319,7 +318,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head .fa-right
 }
 
 
-aside .aside-buttons .row-I-btns .I-btn .head .fa-right .fa-chevron-right,
+aside .aside-buttons .row-1-btns .I-btn .head .fa-right .fa-chevron-right,
 aside .aside-buttons .row-II-btns .II-btn .head .fa-right .fa-chevron-right,
 aside .aside-buttons .row-III-btns .III-btn .head .fa-right .fa-chevron-right,
 aside .aside-buttons .row-IV-btns .IV-btn .head .fa-right .fa-chevron-right,
@@ -334,7 +333,7 @@ aside .aside-buttons .row-VI-btns .VI-btn .head .fa-right .fa-chevron-right{
     
 }
 
-aside .aside-buttons .row-I-btns .I-btn:hover .fa-right ,
+aside .aside-buttons .row-1-btns .I-btn:hover .fa-right ,
 aside .aside-buttons .row-II-btns .II-btn:hover .fa-right,
 aside .aside-buttons .row-III-btns .III-btn:hover .head .fa-right ,
 aside .aside-buttons .row-IV-btns .IV-btn:hover .head .fa-right ,
@@ -344,14 +343,14 @@ aside .aside-buttons .row-VI-btns .VI-btn:hover .head .fa-right {
 }
 
 
-aside .aside-buttons .row-I-btns .I-btn ul,
+aside .aside-buttons .row-1-btns .I-btn ul,
 aside .aside-buttons .row-II-btns .II-btn ul{
     /* outline: 1px solid red; */
     width: 100%;
 }
 
 
-aside .aside-buttons .row-I-btns .I-btn ul li,
+aside .aside-buttons .row-1-btns .I-btn ul li,
 aside .aside-buttons .row-II-btns .II-btn ul li,
 aside .aside-buttons .row-III-btns .III-btn ul li,
 aside .aside-buttons .row-IV-btns .IV-btn ul li,
@@ -365,7 +364,7 @@ aside .aside-buttons .row-VI-btns .VI-btn ul li{
 
 
 
-aside .aside-buttons .row-I-btns .I-btn ul li:hover,
+aside .aside-buttons .row-1-btns .I-btn ul li:hover,
 aside .aside-buttons .row-II-btns .II-btn ul li:hover,
 aside .aside-buttons .row-III-btns .III-btn ul li:hover,
 aside .aside-buttons .row-IV-btns .IV-btn ul li:hover,
@@ -376,7 +375,7 @@ aside .aside-buttons .row-VI-btns .VI-btn ul li:hover{
 
 
 
-aside .aside-buttons .row-I-btns .I-btn ul li a,
+aside .aside-buttons .row-1-btns .I-btn ul li a,
 aside .aside-buttons .row-II-btns .II-btn ul li a,
 aside .aside-buttons .row-III-btns .III-btn ul li a,
 aside .aside-buttons .row-IV-btns .IV-btn ul li a,
@@ -405,7 +404,7 @@ aside .aside-buttons .row-II-btns .II-btn ul li a .fa-solid
     transform: translate(0%,-50%);
 }
 
-aside .aside-buttons .row-I-btns .I-btn ul li a::before,
+aside .aside-buttons .row-1-btns .I-btn ul li a::before,
 aside .aside-buttons .row-II-btns .II-btn ul li a::before,
 aside .aside-buttons .row-III-btns .III-btn ul li a::before,
 aside .aside-buttons .row-IV-btns .IV-btn ul li a::before,
@@ -422,7 +421,7 @@ aside .aside-buttons .row-VI-btns .VI-btn ul li a::before{
     border: 2px solid #6d697b;
 }
 
-aside .aside-buttons .row-I-btns .I-btn ul li a:focus-within,
+aside .aside-buttons .row-1-btns .I-btn ul li a:focus-within,
 aside .aside-buttons .row-II-btns .II-btn ul li a:focus-within,
 aside .aside-buttons .row-III-btns .III-btn ul li a:focus-within,
 aside .aside-buttons .row-IV-btns .IV-btn ul li a:focus-within,
@@ -433,11 +432,11 @@ aside .aside-buttons .row-VI-btns .VI-btn ul li a:focus-within{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);  
 }
 
-aside .aside-buttons .row-I-btns .I-btn ul li a:focus-within::before{
+aside .aside-buttons .row-1-btns .I-btn ul li a:focus-within::before{
     border-color: #fff;
 }
 
-aside .aside-buttons .row-I-btns #dashbords ul li:nth-child(3) a::first-letter
+aside .aside-buttons .row-1-btns #dashbords ul li:nth-child(3) a::first-letter
 {
     text-transform: lowercase !important;
 }
@@ -680,7 +679,6 @@ nav label + input[type="search"]:focus
 
 
 #row-I .I-col-I .col-card-1 .card-btn{
-    /* outline: 1px solid black; */
     z-index: 5;
     position: absolute;
     top: 26px;
@@ -747,7 +745,7 @@ nav label + input[type="search"]:focus
     flex-flow: row wrap;
     align-items: center;
     position: relative;
-    background-color: #7367f0;
+    background-color: #5546f2;
 }
 
 
@@ -771,7 +769,6 @@ nav label + input[type="search"]:focus
 }
 
 #row-I .I-col-I .col-card-1 .card-wrapper .card .sub-deta{  
-    /* outline: 1px solid red; */
     width: 65%;
     height: 58%;
 }
@@ -882,7 +879,6 @@ nav label + input[type="search"]:focus
 
 #row-I .I-col-II .col-card-2 .card-1 .card-1-head h3
 {
-    /* padding: 24px 10px 10px 10px; */
     font-size: 1.5rem;
     font-weight: 400;
     color: #a5a3ae;
@@ -2110,7 +2106,7 @@ h1
 #row-IV .IV-col-II .col-card-9
 {
     width: 100%;
-    height: 100%;
+    height: 500px;
 }
 
 
@@ -2118,7 +2114,7 @@ h1
 {
     margin: auto;
     width: calc(100% - 8%);
-    height: 70px;
+    height: 100px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -2130,7 +2126,7 @@ h1
 {
     font-size: 1.8rem;
     color: #6d697b;
-    line-height: 2.8rem;
+    line-height: 5rem;
     text-transform: capitalize;
 }
 
@@ -2206,12 +2202,12 @@ h1
 
 #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-head .tb-row
 {
-    height: 30px;
+    height: 80px;
 }
 
 #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row
 {
-    height: 41px;
+    height: 61px;
 }
 
 .col-card-body .card-table .table-head .tb-row .tb-cell
@@ -2304,10 +2300,13 @@ h1
 
 #row-IV .IV-col-II .col-card-9 .col-card-body .card-table .table-body .tb-row
 {
-    height: 41px;
+    height: 68px;
 }
 
-
+#row-IV .IV-col-II .col-card-9{
+    height: auto;
+    width: auto;
+}
 .col-card-body .card-table .table-body .tb-row .body-cell{
     height: 100%;  
 }
