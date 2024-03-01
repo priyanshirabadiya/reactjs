@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Callum</title>
   <!-- animation link-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- ----- -->
@@ -13,6 +13,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="responsive.css">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -72,6 +73,7 @@
   </nav>
   <!-- ---------NAV-END------ -->
   <!-- INTRO-START -->
+  
   <section id="intro" role="main">
     <div class="container pb-2 ">
       <div class="row d-flex flex-wrap pb-5">
@@ -247,6 +249,7 @@
       </div>
     </div>
   </section>
+  
   <!-- -------------------SERVICES-END-------------------->
   <!-- ----------------RESUME-START------------ -->
   <main class="resume" id="resume" role="main">
@@ -523,7 +526,6 @@
                     Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
                     squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
                     on it squid single-origin coffee nulla assumenda shoreditch et.
-
                   </div>
                 </div>
               </div>
@@ -551,7 +553,7 @@
             <div class="accordion accordion-flush " id="faqTopics">
               <div class="accordion-item">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed d-flex flex-wrap" type="button" data-bs-toggle="collapse"
+                  <button class="accordion-button collapsed d-flex flex-wrap mb-4" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
                     Why responsive one page template?
                   </button>
@@ -584,11 +586,15 @@
               Speak</span></p>
           <h2 class="fw-bold text-center text-light mb-5 fs-1">What Some of my Clients Say</h2>
         </div>
-        <div class="container d-flex justify-content-center">
-          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            
-            <div class="carousel-inner mt-5">
-              <div class="carousel-item active mt-4">
+        <div class="container core d-flex justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
                 <p class="text-center text-light"> " Client speak sit amet consectetur, adipisicing elit. Excepturi sit
                   eum vitae animi cum
                   voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum, dolor sit amet
@@ -600,7 +606,7 @@
                 <strong class="d-block mt-2 text-center fw-400 text-white">Dennis Jacques</strong>
                 <span class="d-block text-light text-center">Noon Inc</span>
               </div>
-              <div class="carousel-item mt-5">
+              <div class="carousel-item">
                 <p class="text-center text-light"> " I am working sit amet consectetur, adipisicing elit. Excepturi sit
                   eum vitae animi cum
                   voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum dolor sit amet. " </p>
@@ -610,18 +616,7 @@
                 <strong class="d-block mt-2 text-center fw-400 text-white">Pokyy cary</strong>
                 <span class="d-block text-light text-center">Noon Inc USA</span>
               </div>
-              <div class="carousel-item mt-5">
-                <p class="text-center text-light"> " Only trying it sit amet consectetur, adipisicing elit. Excepturi
-                  sit eum vitae animi cum
-                  voluptatum dolores quis eligendi fugit, praesentium qui, harum aut lorem5 lorem5 Lorem ipsum dolor sit
-                  amet. " </p>
-                <div class="d-flex justify-content-center">
-                  <img src="images/client-sm-3.jpg" class="rounded-circle" alt="">
-                </div>
-                <strong class="d-block mt-2 text-center fw-400 text-white">Charis Tom</strong>
-                <span class="d-block text-light text-center">Noon Inc FRANCE</span>
-              </div>
-              <div class="carousel-item mt-5">
+              <div class="carousel-item">
                 <p class="text-center text-light"> "I have used to sit amet consectetur, adipisicing elit. Excepturi sit
                   eum vitae animi cum
                   voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum dolor sit amet
@@ -633,19 +628,12 @@
                 <span class="d-block text-light text-center">Noon Inc,TURKY</span>
               </div>
             </div>
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-hidden="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2" aria-hidden="true"></button>
-              <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3" aria-hidden="true"></button>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="prev">
-              <i class="fa-solid fa-chevron-left position-absolute" aria-hidden="true" style="color: #ffffff;"></i>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
-              data-bs-slide="next">
-              <i class="fa-solid fa-chevron-right" aria-hidden="true" style="color: #ffffff;"></i>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
@@ -702,19 +690,15 @@
       </div>
   </div>
 </footer>
-
-<a id="back-to-top" class="rounded-circle bg-secondary" href="#"><i class="fa-solid fa-arrow-up fa-xl" style="color: white;"></i></a>
-
+<div class="arrow">
+  <a id="back-to-top" class="rounded-circle bg-secondary" href="#"><i class="fa-solid fa-arrow-up" style="color: #dfe0e2;"></i></a>
+</div>
   <!-- ----------------FOOTER-END----------- -->
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
-
-
-
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
 </body>
-
-
 </html>
+

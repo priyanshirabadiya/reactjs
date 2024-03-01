@@ -10,14 +10,23 @@
         padding: 0!important;
         padding-top: 0 !important;
     }
-    .img-res {
-        padding-top: 30px !important;
-        padding-left: 0px !important;
+   
+    #back-to-top{
+        display: none;
     }
-    
-
 }
 
+
+
+@media (max-width: 1000px)
+{
+.mb-sm-5{
+    width: 100%;
+}
+.setting{
+    display: none !important;
+}
+}
 @media (max-width: 992px) {
     .dynamic-text {
         max-height: calc(1.875rem + 6.3vw) !important;
@@ -67,9 +76,13 @@
     }
 }
 
+@media (max-width:540px) {
+    .i-class{
+        margin-bottom: 20px !important;
+    }
+}
 
 @media (max-width:320px) {
-
     .section .container .corner div p:nth-child(2) a:nth-child(2) {
         color: #000;
         display: block !important;

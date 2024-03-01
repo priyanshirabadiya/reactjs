@@ -90,6 +90,90 @@ footer{
 .footer-container{
     width: 540px;
 }
+}
 
 
+@media (max-width:768px) {
+    .first-row{
+        /* margin-left: 50px !important; */
+    }
+    .secondbox-2{
+        /* margin-left: 20px !important; */
+    } 
+    .main-long-row section {
+        display: flex;
+        flex-wrap: wrap !important;
+        height: 550px !important;
+        width: 200px;
+    }
+    .first-box-of-sec{
+        /* margin-left: 50px; */
+    }
+    .second-box-of-sec{
+        /* margin-left: 60px !important; */
+    }
+    .container-3 section {
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .container-4 section {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1000px;
+    }
+    .fourth-last-row {
+        position: absolute;
+        display: flex;
+        flex-wrap: wrap;
+        height: 1500px;
+    }
+    .fourth-last-row section{
+        margin-top: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        /* position: relative; */
+        height: 1500px;
+    }
+    .boxp-1{
+        position: absolute;
+        margin-top: 0px !important;
+    }
+    .fourth-first{
+        margin-bottom: 50px;
+    }
+    .fourth-second-time{
+        display: none;
+    }
+    nav{
+        /* display: none; */
+    }
+    footer {
+        /* height: 30px; */
+        /* width: 1220px; */
+        /* display: flex; */
+        display: none !important;
+    }
+    .footer-container{
+        display: none !important;
+    }
+    .fourth-first {
+        height: 480px;
+        width: 670px !important;
+    }
+    main {
+        width: 1000px;
+    }
+}
+
+
+
+
+
+
+
+.main-long-row section{
+    width: 1500px !important;
+    margin-left: 0px;
 }

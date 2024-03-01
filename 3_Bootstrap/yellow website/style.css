@@ -13,6 +13,19 @@
     --width: 100vw;
 }
 
+.row .mt-4{
+    margin-top: 10px !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
 /* NAV-START */
 nav {
     position: fixed !important;
@@ -424,7 +437,10 @@ p {
 
 /* -----PORTFOLIO-END---- */
 /* ------IDEA-STRAT------ */
-
+.akay-div{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .accordion-item button {
     color: rgb(156, 154, 154) !important;
     font-weight: bold;
@@ -489,44 +505,45 @@ hr {
 
 .img-res {
     padding-top: 30px !important;
-    padding-left: 100px ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* ------IDEA-END------ */
 /* ------SCROLLING-START----- */
 .scroll .row .col-12 {
+    position: relative;
     background-color: #939597;
-    height: 100%;
-    padding-bottom: 150px;
+    height: 100% !important;
     width:100% !important;
+    height: auto;
+    padding-bottom: 100px;
+}
 
-}
-.scroll .row {
-    --bs-gutter-x:0 !important;
-}
 .col-12
 {
     padding: 0;
 }
 .scroll .container {
-    background-color: #939597;
-    height: 100%;
+    /* background-color: #939597; */
+    /* height: 100%; */
 }
-
-.carousel-item {
-    padding: 0 100px 0 100px;
+.carousel-item p{
+    padding: 5px 20px 5px 20px;
 }
-
 .carousel-item p {
     font-weight: 500;
     font-size: 1.3125rem !important;
 }
-
-.carousel button {
+.core {
+    height: 120% !important;
+}
+.core button {
     visibility: hidden;
 }
 
-.carousel:hover button {
+.scroll .row .col-12:hover button {
     visibility: visible;
 }
 
@@ -539,24 +556,32 @@ hr {
     border-radius: 100% !important;
     box-shadow: 0 0 1px 1px rgb(121, 119, 119);
     position: absolute;
-    margin-top: 180px !important;
+    margin-top: 50px !important;
 }
 
 .carousel-control-prev {
     color: none !important;
     opacity: 1 !important;
     transition: opacity .5s ease;
-}
-
-.carousel-control-next {
-    padding: 0 !important;
     background-color: #b5b6b7 !important;
-    height: 40px !important;
-    width: 40px !important;
+    height: 30px !important;
+    width: 30px !important;
     border-radius: 100% !important;
     box-shadow: 0 0 1px 1px rgb(121, 119, 119);
     position: absolute;
-    margin-top: 180px !important;
+    margin-top: 3% !important;
+    padding: 6px 6px 6px 4px !important;
+}
+
+.carousel-control-next {
+    background-color: #b5b6b7 !important;
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 100% !important;
+    box-shadow: 0 0 1px 1px rgb(121, 119, 119);
+    position: absolute;
+    margin-top: 3% !important;
+    padding: 6px 4px 6px 6px !important;
 }
 
 .carousel-control-next {
@@ -565,11 +590,23 @@ hr {
 }
 
 .carousel-indicators {
-    margin-bottom: 150px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    top: 110%;
 }
 /*------ SCROLLING-END-------- */
 /*----- FOOTER-START-------- */
 .last{
+    position: relative;
     background-color:  #f7de3f;
     height:100%;
     width: 100%;
@@ -578,6 +615,9 @@ hr {
 .last .row .col-lg-6
 {
     margin-top: 100px !important;
+    /* align-items: center;
+    display: flex;
+    justify-content: center; */
 }
 
 .last .row .text-5{
@@ -660,7 +700,9 @@ footer .container{
 }
 
 /*----- FOOTER-END-------- */
-
+.arrow a{
+    text-decoration: none;
+}
 #back-to-top{
     height: 40px;
     width: 40px;
@@ -671,4 +713,5 @@ footer .container{
     display: flex;
     justify-content: center;
     border-bottom: 0 !important;
+    color: rgb(212, 208, 208) !important;
 }
