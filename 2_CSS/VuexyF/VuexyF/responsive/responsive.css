@@ -1,0 +1,40 @@
+@media (max-width:1200px) {
+    body{
+        overflow: hidden;
+    }
+    
+    aside{
+        display: none;
+    }
+    header{
+        left: -30px;
+    }
+    .main-container{
+        left: -30px;
+
+        width: 100%;
+        top: 0px;
+        left: 0;
+        right: 100px;
+        /* margin-right: 50px; */
+        position:absolute;
+    }
+    .main-long-row section{
+
+        width: 800px;
+    }
+
+    .first-row{
+        width: 500px;
+    }
+    .setting{
+        position: absolute;
+    }
+}
+
+@media (max-width:950px)
+{   
+
+
+}
+
