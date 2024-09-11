@@ -1,0 +1,81 @@
+a {
+    text-decoration: none !important;
+    color: rgb(48, 224, 48) !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: black !important;
+    color: white;
+}
+
+.container {
+    padding: 0 150px 0 150px;
+    font-size: 4rem;
+}
+
+/* ---------------------------------------------- */
+
+.f1{
+    font-size: large;
+}
+
+.from-data {
+    padding: 20px 20px 0px 20px;
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid gray;
+    font-size: large;
+}
+
+input[type=password] {
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid gray;
+    font-size: large;
+}
+
+textarea {
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid gray;
+    font-size: large;
+}
+
+button {
+    width: 100%;
+    color: #48FD4A;
+    padding: 18px 35px;
+    background-color: #000;
+    border: 2px solid #48FD4A;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #48FD4A;
+    color: black;
+    font-weight: 800;
+}

@@ -1,0 +1,110 @@
+
+a {
+    text-decoration: none !important;
+    color: rgb(48, 224, 48) !important;
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: black !important;
+    color: white;
+}
+
+.container h1{
+    font-size: 4rem;
+}
+
+.parent{
+    display: flex;
+}
+
+.parabox {
+    padding: 10px 50px 10px 50px;
+    position: relative;
+}
+
+.parabox h2{
+    font-weight: 900;
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.parabox .b1{
+    padding: 10px 10px 20px 10px;
+    width: 550px !important;
+    border: 1px solid white;
+}
+
+.parabox .b2{
+    width: 550px !important;
+    border: 1px solid white;
+}
+
+.text-se{
+    color: gainsboro;
+}
+
+.h3-text{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 5px 0 0 20px;
+}
+
+.af-h3{
+    font-size: 1.2rem;
+    padding: 0 0 0 20px;
+}
+
+.from-data{
+    padding: 20px 20px 0px 20px;
+}
+
+input[type=text]{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid gray;
+    font-size: large;
+}
+
+textarea{
+    height: 120px;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    border: 1px solid gray;
+    font-size: large;
+}
+
+button {
+    width: 100%;
+    color: #48FD4A;
+    padding: 18px 35px;
+    background-color: #000;
+    border: 2px solid #48FD4A;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #48FD4A;
+    color: black;
+    font-weight: 800;
+}
+
+.ss-fdata{
+    margin-bottom: 20px;
+}
