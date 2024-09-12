@@ -3,12 +3,10 @@
 a {
     text-decoration: none;
 }
-
 button a {
     color: #70f972;
     font-weight: 900;
 }
-
 html {
     scroll-behavior: smooth;
 }
