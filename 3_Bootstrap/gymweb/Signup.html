@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="signup.css">
 </head>
-
 <body>
     <div class="container">
         <div class="d-flex justify-content-center mt-4 mb-4">
@@ -20,7 +18,7 @@
         </div>
         <div>
             <h2 class="d-flex justify-content-center mt-4 ">Register your profile</h2>
-            <form action="" onsubmit="return mySubmission()">
+            <form action="" onsubmit="return mySubmission(event)">
                 <div class="from-data">
                     <label class="mt-2 f1 " for="">First Name</label>
                     <input type="text" class="" id="neededFname" placeholder="Enter FirstName" autocomplete="on">
@@ -44,7 +42,8 @@
         </div>
     </div>
     <script>
-        function mySubmission() {
+        function mySubmission(event) {
+            event.preventDefault();
             let str = document.getElementById('neededFname').value;
             let emailstr = document.getElementById('neededemail').value;
             let passwordcheck = document.getElementById('neededpass').value;
@@ -82,9 +81,9 @@
                 return false;
             }
             alert("Registered successfully...");
+            window.location.href = "index.html";
             return true;
         }
     </script>
 </body>
-
 </html>
